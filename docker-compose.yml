@@ -1,0 +1,38 @@
+version: '2'
+services:
+    nginx:
+        build: ./nginx
+        volumes:
+            - ~/microservices/nginx/nginx.conf:/etc/nginx/nginx.conf
+            - ~/microservices/nginx/error.log:/var/log/nginx/error.log
+            - ~/microservices/nginx/access.log:/var/log/nginx/access.log
+            - ~/microservices/nginx/web/:/etc/nginx/web/
+        ports:
+            - "88:80"
+        links: 
+            - web_node
+            - web_node_bak
+    web_node:
+        build: ./node
+        volumes: 
+            - ~/microservices/node:/source
+        ports:
+            - "1337:1337"
+        links:
+            - db_mongo
+    web_node_bak:
+        build: ./node
+        volumes: 
+            - ~/microservices/node:/source
+        ports:
+            - "1338:1337"
+    db_mysql:
+        build: ./mysql
+        ports:
+            - "13306:3306"
+        environment:
+            MYSQL_ALLOW_EMPTY_PASSWORD: "yes"
+    db_mongo:
+        build: ./mongo
+        ports:
+            - "13017:27017"

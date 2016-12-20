@@ -1,0 +1,30 @@
+{
+  "name": "web_node",
+  "version": "1.0.0",
+  "author": "liugenbin",
+  "description": "node服务器调试版本",
+  "scripts": {
+    "start": "supervisor server.js",
+    "dev": "webpack-dev-server --devtool eval --progress --colors --inline --hot --content-base build --port 1337 --host 0.0.0.0",
+    "build": "webpack -p --inline --hot --progress --colors"
+  },
+  "config": {
+    "port": 1337
+  },
+  "dependencies": {
+    "express": "^4.14.0"
+  },
+  "devDependencies": {
+    "babel-core": "^6.21.0",
+    "babel-generator": "^6.21.0",
+    "babel-loader": "^6.2.10",
+    "babel-preset-es2015": "^6.18.0",
+    "babel-preset-react": "^6.16.0",
+    "express-generator": "^4.14.0",
+    "fs": "0.0.1-security",
+    "path": "^0.12.7",
+    "supervisor": "^0.12.0",
+    "webpack": "^1.14.0",
+    "webpack-dev-server": "^1.16.2"
+  }
+}
