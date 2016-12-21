@@ -4,7 +4,7 @@
   "author": "liugenbin",
   "description": "node服务器调试版本",
   "scripts": {
-    "start": "supervisor server.js",
+    "start": "supervisor ./bin/www",
     "dev": "webpack-dev-server --devtool eval --progress --colors --inline --hot --content-base build --port 1337 --host 0.0.0.0",
     "build": "webpack -p --inline --hot --progress --colors"
   },

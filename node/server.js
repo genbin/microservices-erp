@@ -1,15 +1,22 @@
-const app = require('express')();
-const http = require('http');
+const express = require('express');
+var server = express();
+var router = express.Router();
 
-app.use('/', function(req, res, next){
-    res.writeHead('200', {'Content-Type': "text/html"});
-    res.end('\n Welcome the purely nodeJS ROOT......\n');
+router.get('/user/:id', (req, res, next) => {
+    console.log('SEND');
     next();
 });
 
-app.use('/demo/', function(req, res, next){
-    res.send('\n Welcome the purely nodeJS DEMO ..\n');
+router.get('/user/:id', (req, res, next) => {
+    console.log('although this matches');
+    next();
 });
 
-http.createServer(app).listen(process.env.npm_package_config_port);
+router.get('/user/:id', (req, res) => {
+    console.log('and this matches too');
+    res.end();
+});
 
+server.get('/user/:id', router);
+
+module.exports = server;
