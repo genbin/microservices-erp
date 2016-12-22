@@ -8,7 +8,7 @@ router.get('/user/:id', (req, res, next) => {
 });
 
 router.get('/user/:id', (req, res, next) => {
-    console.log('although this matches');
+    console.log('although this matches: ', req.id);
     next();
 });
 
@@ -18,5 +18,9 @@ router.get('/user/:id', (req, res) => {
 });
 
 server.get('/user/:id', router);
+
+server.on('clientError', (err, socket) => {
+  socket.end('HTTP/1.1 400 Bad Request\r\n\r\n');
+});
 
 module.exports = server;

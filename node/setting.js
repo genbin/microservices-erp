@@ -1,4 +1,5 @@
-const port = process.env.npm_package_config_port;
+const PORT = process.env.npm_package_config_port;
+
 module.exports = {
-    port: port
+    PORT: PORT
 }
