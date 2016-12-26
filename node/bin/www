@@ -1,3 +1,5 @@
+console.time('server running time');
+
 const http = require('http');
 const setting = require('../setting');
 const server = require('../server');

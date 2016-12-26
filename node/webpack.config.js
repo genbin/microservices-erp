@@ -1,20 +1,33 @@
-module.exports = {
-    entry: './component/index.js',
+const path = require('path');
+const fs = require('fs');
+const webpackConfig = {
+    entry: (path.resolve(__dirname, './components/index.jsx')),
     output: {
-        filename: './bundle.js'
+        path: path.resolve(__dirname, './dist/'),
+        publicPath: 'http://127.0.0.1:4337/static/',
+        filename: 'bundle.js'
     },
     module: {
         loaders: [
             { 
-                test: /\.js$/,
+                test: /\.jsx$/,
                 loader: 'babel-loader',     
                 query: {
                     presets: ['es2015', 'react']
                 }
+            },
+            {test: /\.css$/, loader: "style!css"},
+            {
+                test: /\.scss$/,
+                loader: "style!css!sass",
             }
         ]
     },
     resolve: {
-        extensions: ['', 'js', '.json', '.react.js']
+        extensions: ['', '.js', '.jsx', '.json', '.react.js']
     }
 }
+
+console.log('webpack.config.js: %o', webpackConfig);
+
+module.exports = webpackConfig;
