@@ -10,9 +10,9 @@ services:
         ports:
             - "88:80"
         links: 
-            - web_node
-            - web_node_bak
-    web_node:
+            - web_node_1
+            - web_node_2
+    web_node_1:
         build: ./node
         volumes: 
             - ~/microservices/node:/source
@@ -20,7 +20,7 @@ services:
             - "1337:1337"
         links:
             - db_mongo
-    web_node_bak:
+    web_node_2:
         build: ./node
         volumes: 
             - ~/microservices/node:/source
