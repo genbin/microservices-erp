@@ -17,14 +17,12 @@ const webpackConfig = {
                 }
             },
             {test: /\.css$/, loader: "style!css"},
-            {
-                test: /\.scss$/,
-                loader: "style!css!sass",
-            }
+            {test: /\.scss$/,loader: 'style!css!sass'}
         ]
     },
     resolve: {
-        extensions: ['', '.js', '.jsx', '.json', '.react.js']
+        //自动扩展文件后缀名，意味着我们require模块可以省略不写后缀名
+        extensions: ['', '.js', '.jsx', '.json', '.react.js', '.scss']
     }
 }
 

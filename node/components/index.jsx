@@ -1,11 +1,8 @@
 "use strict"
-var React = require('react');
-module.exports = React.createClass({
-    render: function(){
-        return (
-            <div>
-                React Demo.
-            </div>
-            )
-    }
-});
+const React = require('react');
+const ReactDom = require('react-dom');
+
+const Layout = require('./layout/Normal.jsx');
+const baseComponent = document.getElementById('base-component');
+ReactDom.render(<Layout/>, baseComponent);
+
