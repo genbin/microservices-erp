@@ -1,28 +1,21 @@
 const express = require('express');
-const server = express();
+var server = express();
+var path = require('path');
 
-// var router = express.Router();
-// router.get('/user/:id', (req, res, next) => {
-//     console.log('SEND');
-//     next();
-// });
+var favicon = require('serve-favicon');
+server.use(favicon(path.join(__dirname + '/public/img/favicon.png')));
 
-// router.get('/user/:id', (req, res, next) => {
-//     console.log('although this matches: ', req.params.id);
-//     next();
-// });
+// 加载静态文件路由
+server.use('/static', express.static(path.join(__dirname + '/public')));
 
-// router.get('/user/:id', (req, res) => {
-//     console.log('and this matches too');
-//     console.timeEnd('server running time');
-//     res.end();
-// });
-
-// server.get('/user/:id', router);
+// 业务逻辑路由
+var index = require('./routers/home/index');
+server.get('/', index);
 
 var login = require('./routers/user/login');
 server.get('/user/:id', login);
 
+// 错误处理
 server.on('clientError', (err, socket) => {
   socket.end('HTTP/1.1 400 Bad Request\r\n\r\n');
 });

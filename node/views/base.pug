@@ -2,10 +2,14 @@ doctype html
 html
     head
         title demo
-        style
-            include ../static/style/base.scss
+        link(
+            href="http://127.0.0.1:1337/static/css/lib/bootstrap.min.css"
+            rel="stylesheet"
+        )
+    style
+        include ./base.css
     body
-        include top.pug
-        div#base-component
+        include head.pug
+        div#base-container
+        div#global-dialog
         include footer.pug
-script(src='http://127.0.0.1:4337/static/bundle.js')

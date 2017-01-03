@@ -1,7 +1,7 @@
 console.time('server running time');
 
 const http = require('http');
-const setting = require('../setting');
+const settings = require('../settings');
 const server = require('../server');
 
-http.createServer(server).listen(setting.PORT);
+http.createServer(server).listen(settings.PORT);
