@@ -23,6 +23,9 @@ server.use('/api', jobs);
 var users = require('./routers/api/users');
 server.use('/api', users);
 
+var userByPostId = require('./routers/api/userByPostId');
+server.use('/api', userByPostId);
+
 // var login = require('./routers/user/login');
 // server.get('/user/:id', login);
 

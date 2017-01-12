@@ -3,6 +3,7 @@ var userSchema = new mongoose.Schema({
   'key': Number,
   'userId': String,
   'orgId': String,
+  'postId': String,
   'leaderId': String,
   'realName': String,
   'loginName': String,

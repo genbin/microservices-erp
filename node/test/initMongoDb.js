@@ -58,6 +58,7 @@ const userTmpl = {
   'key|+1': 1,
   'userId': '@increment',
   'orgId': '',
+  'postId': '',
   'leaderId': '',
   'realName': /真实名字[a-z]{5,}/,
   'loginName': /登录名字[a-z]{5,}/,
@@ -121,6 +122,7 @@ function generateOtherData () {
                   let userDatum = Mock.mock(userTmpl);
                   userDatum.jobId = jobDatum.jobId;
                   userDatum.orgId = jobDatum.orgId;
+                  userDatum.postId = jobDatum.postId;
                   userData.push(userDatum);
                   console.log('  >> user.orgId: %s, user.realName: %s', userDatum.orgId, userDatum.realName);
                 }
