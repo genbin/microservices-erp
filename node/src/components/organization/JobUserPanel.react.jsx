@@ -37,14 +37,13 @@ const columnsUser = [
   }, {
     title: '状态', dataIndex: 'status',
   }, {
-    title: '备注', dataIndex: 'remark', width: 100
+    title: '备注', dataIndex: 'remark', width: 100, render: (text)=> <a>{text.substring(0,10)}</a>
 }];
 
 const JobUserPanel = React.createClass({
   getInitialState() {
-    console.log(' ####>>>>> JobUserPanel.getInitialState', this.props);
     return {
-      activeAlias: 'WORKER'
+      activeAlias: 'USER'
     }
   },
 
@@ -57,7 +56,7 @@ const JobUserPanel = React.createClass({
   onClickNewOne() {
     let mode = this.state.activeAlias;
     switch(mode) {
-      case 'WORKER':
+      case 'USER':
         this.refs.UserModal.showModal();
         break;
       case 'JOB':
@@ -71,13 +70,12 @@ const JobUserPanel = React.createClass({
   // 切换标签时，需要改变下标签的别名
   onChangeTab(key) {
     this.setState({
-      activeAlias: key == 1? 'WORKER' : 'JOB'
+      activeAlias: key == 1? 'USER' : 'JOB'
     });
   },
 
   render() {
     const { jobs, users } = this.props;
-    console.log('>>>> jobs and users: ', jobs, users);
     return (
       <div>
         <Tabs 

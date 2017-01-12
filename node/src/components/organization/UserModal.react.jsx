@@ -40,66 +40,40 @@ const WorkerModal = React.createClass({
   },
 
   render() {
-    return ( <div >
-      <Modal 
+    return ( <div> <Modal 
         width = {600}
         okText = "保存"
         okCancel = "取消"
-        visible = {
-          this.state.visible
-        }
+        visible = { this.state.visible }
         title = "用户信息"
-        onOk = {
-          this.handleOk
-        }
-        onCancel = {
-          this.handleCancel
-        }
+        onOk = { this.handleOk }
+        onCancel = { this.handleCancel }
       >
         <Form>
-          <FormItem 
-            label = "用户名称" 
-            labelCol={{ span: 4 }}
-            wrapperCol={{ span: 16 }}
-          > 
+          <FormItem label = "用户名称" labelCol={{ span: 4 }} wrapperCol={{ span: 16 }} > 
             <Input />
           </FormItem>   
 
-          <FormItem 
-            label = "用户登录名称" 
-            labelCol={{ span: 4 }}
-            wrapperCol={{ span: 16 }}
-          > 
+          <FormItem label = "用户登录名称" labelCol={{ span: 4 }} wrapperCol={{ span: 16 }} > 
             <Input />
           </FormItem>   
 
 
           <Row type="flex">
             <Col span="12">
-              <FormItem 
-                label = "岗位" 
-                labelCol={{ span: 8 }}
-                wrapperCol={{ span: 16 }}
-              > 
+              <FormItem label = "岗位" labelCol={{ span: 8 }} wrapperCol={{ span: 16 }} > 
                 <Input />
               </FormItem>   
             </Col>
             <Col span="12">
-              <FormItem
-                label = "手机" 
-                labelCol = {{span: 4}}
-                wrapperCol = {{span: 12}}
-              >
+              <FormItem label = "手机" labelCol = {{span: 4}} wrapperCol = {{span: 12}} >
                 <Input />
               </FormItem>
             </Col>
           </Row>
 
           <FormItem 
-            label = "备注" 
-            labelCol={{ span: 4 }}
-            wrapperCol={{ span: 16 }}
-          > 
+            label = "备注" labelCol={{ span: 4 }} wrapperCol={{ span: 16 }} > 
             <Input />
           </FormItem>   
 
