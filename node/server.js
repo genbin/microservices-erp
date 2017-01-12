@@ -1,4 +1,5 @@
 const express = require('express');
+const debug = require('debug');
 var server = express();
 var path = require('path');
 
@@ -13,9 +14,14 @@ server.use('/lib', express.static(path.join(__dirname + '/lib')));
 // 业务逻辑路由
 server.use(require('./routers/home/index'));
 
-var companies = require('./routers/api/companies');
-server.use('/api', companies);
+var orgs = require('./routers/api/orgs');
+server.use('/api', orgs);
 
+var jobs = require('./routers/api/jobs');
+server.use('/api', jobs);
+
+var users = require('./routers/api/users');
+server.use('/api', users);
 
 // var login = require('./routers/user/login');
 // server.get('/user/:id', login);

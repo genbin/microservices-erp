@@ -30,7 +30,7 @@ module.exports = {
     contentBase: 'build',
     color: true,
     historyApiFallback: true,
-    devtool: 'source-map',
+    devtool: 'eval-source-map',
     port: 4337,
     host: '127.0.0.1'
   },
