@@ -1,14 +1,10 @@
 const express = require('express');
 var router = express.Router();
 
-router.use(function timeLog(req, res, next) {
-  next();
-});
-
 router.get('/userByPostId/:postId', (req, res, next) => {
     var postId = req.params.postId;
 
-    var userModel = require('./models/user');
+    var userModel = require('../../test/models/user');
     var param = {postId: postId};
     var out = userModel.find(param, (err, json)=>{
       res.json(json);

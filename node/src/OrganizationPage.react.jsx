@@ -24,7 +24,6 @@ class BodyContent extends React.Component {
   render() {
       const {tree, users, jobs} = this.props;
 
-      console.log('OrganizationPage.react: props: %o', tree, jobs);
       return (
         <Content style={{ padding: '0 50px' }}>
 
@@ -34,7 +33,7 @@ class BodyContent extends React.Component {
           </Breadcrumb>
 
           <Layout style={{ padding: '24px 0', background: '#fff' }}>
-            <HrTree tree={tree}/>
+            <HrTree tree={ tree }/>
 
             <Content style={{ padding: '0 24px', minHeight: 280 }}>
               <JobUserPanel users={users} jobs={jobs}/>
@@ -49,12 +48,10 @@ class BodyContent extends React.Component {
 }
 
 function mapStateToProps(state)  {
-  console.log('>>>>>>>>>>>mapStateToProps: %o', state);
   return {
-    tree: state.organization.tree?  state.organization.tree : [],
-    users: state.organization.users?  state.organization.users : [],
-    jobs: state.organization.jobs? state.organization.jobs : []
-    // companies: state.companies?  state.companies : [],
+    tree: state.organization.tree || [],
+    users: state.organization.users || [],
+    jobs: state.organization.jobs || []
   };
 }
 

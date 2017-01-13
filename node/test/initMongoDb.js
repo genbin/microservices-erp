@@ -69,7 +69,7 @@ const userTmpl = {
   'status': '启用'
 };
 
-var jobModel = require('../routers/api/models/org.js');
+var jobModel = require('./models/org.js');
 
 // 保存入库
 if (INIT_DB) {
@@ -166,7 +166,7 @@ function writeUserFile (data) {
 }
 
 function importJobFile () {
-  var jobModel = require('../routers/api/models/job');
+  var jobModel = require('./models/job');
   let jobQ = jobModel.remove({});
   jobQ.exec();
 
@@ -178,7 +178,7 @@ function importJobFile () {
 }
 
 function importWorkerFile () {
-  var userModel = require('../routers/api/models/user');
+  var userModel = require('./models/user');
   let userQ = userModel.remove({});
   userQ.exec();
 

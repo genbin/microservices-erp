@@ -11,23 +11,17 @@ server.use(favicon(path.join(__dirname + '/static/img/favicon.png')));
 server.use('/static', express.static(path.join(__dirname + '/static')));
 server.use('/lib', express.static(path.join(__dirname + '/lib')));
 
-// 业务逻辑路由
-server.use(require('./routers/home/index'));
+// 页面路由
+server.use('/organization', require('./routes/organization/index'));
 
-var orgs = require('./routers/api/orgs');
-server.use('/api', orgs);
+// 加载api逻辑路由
+server.all(require('./core/routes_loader').apiRouters(server));
 
-var jobs = require('./routers/api/jobs');
-server.use('/api', jobs);
+// 加载page路由
+server.all(require('./core/routes_loader').pageRouters(server));
 
-var users = require('./routers/api/users');
-server.use('/api', users);
-
-var userByPostId = require('./routers/api/userByPostId');
-server.use('/api', userByPostId);
-
-// var login = require('./routers/user/login');
-// server.get('/user/:id', login);
+var login = require('./routes/user/login');
+server.get('/user/:id', login);
 
 // 初始化数据, 适合4.x版本，升级7.3.0后实效 
 // if (process.env.NODE_ENV === 'production') {
