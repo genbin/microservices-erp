@@ -1,1 +1,3 @@
 *.log
+node/node_modules/**
+xyre.sublime-*
