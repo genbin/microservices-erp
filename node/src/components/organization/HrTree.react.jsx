@@ -5,7 +5,6 @@ import { Layout, Menu, Icon } from 'antd'
 
 import { getJobDataByOrgId, getWorkerDataByOrgId } from '../../actions/organization'
 
-const { Sider } = Layout;
 const { SubMenu } = Menu;
 
 const HrTree = React.createClass({
@@ -26,12 +25,12 @@ const HrTree = React.createClass({
       let { tree } = this.props;
       console.log('组织树结构初始化：', tree);
       if (tree.length == 0) {
-        return <Sider/>
+        return <ul/>
       }
       return (
-        <Sider width={240}>
           <Menu
             mode="inline"
+            style={{ width: 240, padding: 0 0 0 30px }}
             defaultSelectedKeys={['root']}
             defaultOpenKeys={['root', 'org1', 'org2']} 
             onClick={this.onClickMenu}>
@@ -63,7 +62,6 @@ const HrTree = React.createClass({
               })}
             </SubMenu>
           </Menu>
-        </Sider>
     );
   }
 });

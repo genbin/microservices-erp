@@ -3,6 +3,7 @@ import React from 'react';
 import { createStore,bindActionCreators } from 'redux';
 import { Provider, connect } from 'react-redux';
 import { Layout, Menu, Breadcrumb, Icon } from 'antd';
+import { Row, Col } from 'antd';
 
 const { Header, Content, Footer, Sider } = Layout;
 const { SubMenu } = Menu;
@@ -25,24 +26,19 @@ class BodyContent extends React.Component {
       const {tree, users, jobs} = this.props;
 
       return (
-        <Content style={{ padding: '0 50px' }}>
-
-          <Breadcrumb style={{ margin: '12px 0' }}>
-            <Breadcrumb.Item >鑫云ERP系统</Breadcrumb.Item>
-            <Breadcrumb.Item>组织管理权限</Breadcrumb.Item>
-          </Breadcrumb>
-
-          <Layout style={{ padding: '24px 0', background: '#fff' }}>
-            <HrTree tree={ tree }/>
-
-            <Content style={{ padding: '0 24px', minHeight: 280 }}>
-              <JobUserPanel users={users} jobs={jobs}/>
-              <RolesTable />
-            </Content>
-
-          </Layout>
-
-        </Content>
+        <div>
+          <Row>
+            <Col span="4">
+              <HrTree tree={ tree }/>
+            </Col>
+            <Col span="20">
+              <div style={{ padding: '0 24px', minHeight: 280 }}>
+                <JobUserPanel users={users} jobs={jobs}/>
+                <RolesTable />
+              </div>
+            </Col>
+          </Row>
+        </div>
     );
   }
 }
