@@ -3,13 +3,12 @@ html
     head
         title demo
         link(
-            href="http://127.0.0.1:1337/static/css/lib/bootstrap.min.css"
+            href="https://unpkg.com/antd/dist/antd.min.css"
             rel="stylesheet"
         )
-    style
-        include ./base.css
     body
-        include head.pug
         div#base-container
-        div#global-dialog
-        include footer.pug
+script(
+    src='http://127.0.0.1:4337/static/bundle.js'
+    type='text/javascript'
+)
