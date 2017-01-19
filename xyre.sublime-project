@@ -1,0 +1,14 @@
+{
+	"folders":
+	[
+		{
+			"folder_exclude_patterns":
+			[
+				"node/node_modules",
+				"node/lib",
+				"node/dist"
+			],
+			"path": "."
+		}
+	]
+}

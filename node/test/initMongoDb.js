@@ -127,12 +127,20 @@ function generateOtherData () {
                   console.log('  >> user.orgId: %s, user.realName: %s', userDatum.orgId, userDatum.realName);
                 }
               }
+<<<<<<< HEAD
+=======
+
+
+>>>>>>> bbe48c3e461675372c84c00151dabb6115618b0f
             });
           });
         });
       });
     });
+<<<<<<< HEAD
 
+=======
+>>>>>>> bbe48c3e461675372c84c00151dabb6115618b0f
   });
 
   setTimeout(function(){
@@ -184,7 +192,13 @@ function importWorkerFile () {
   let data = fs.readFile('./user.json', function(err, data){
     userModel.create(JSON.parse(data.toString()), function(err) {
       console.log('initial userModel is OK');
+<<<<<<< HEAD
       mongoose.disconnect();
     });
   });
 }
+=======
+    });
+  });
+}
+>>>>>>> bbe48c3e461675372c84c00151dabb6115618b0f

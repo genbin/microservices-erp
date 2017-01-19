@@ -1,0 +1,3425 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"OR",
+				"OrganizationPage"
+			],
+			[
+				"w",
+				"workflow\t(index.js)"
+			],
+			[
+				"org",
+				"organization\t(server.js)"
+			],
+			[
+				"pageR",
+				"pageRouters"
+			],
+			[
+				"api",
+				"apiRouters"
+			],
+			[
+				"route",
+				"routes_loader"
+			],
+			[
+				"apiR",
+				"apiRouters\t(routes_loader.js)"
+			],
+			[
+				"req",
+				"require"
+			],
+			[
+				"routes",
+				"routesLoader"
+			],
+			[
+				"rq",
+				"require"
+			],
+			[
+				"sper",
+				"supervisor"
+			],
+			[
+				"pa",
+				"params\t(jobs.js)"
+			],
+			[
+				"com",
+				"companyId\t(JobTable.react.jsx)"
+			],
+			[
+				"onC",
+				"onChangeTab"
+			],
+			[
+				"O",
+				"OrganizationPage.react\t(index.jsx)"
+			],
+			[
+				"Job",
+				"JobWorkerPanel"
+			],
+			[
+				"jobD",
+				"jobDatum"
+			],
+			[
+				"workerDa",
+				"workerDatum"
+			],
+			[
+				"por",
+				"portDuty"
+			],
+			[
+				"worker",
+				"workerData"
+			],
+			[
+				"shou",
+				"shouldComponentUpdate\t Life Cycle"
+			],
+			[
+				"super",
+				"superiorCode\t(job.js)"
+			],
+			[
+				"rev",
+				"receiveJobsByLeafId"
+			],
+			[
+				"comp",
+				"companies"
+			],
+			[
+				"recei",
+				"receiveJobsByLeafId"
+			],
+			[
+				"get",
+				"getJobDataByTreeId"
+			],
+			[
+				"getT",
+				"getJobDataByTreeId\t(organizations.js)"
+			],
+			[
+				"data",
+				"dataTmpl"
+			],
+			[
+				"impor",
+				"importJobFile"
+			],
+			[
+				"impo",
+				"importJobFile"
+			],
+			[
+				"imp",
+				"importJobFile"
+			],
+			[
+				"wir",
+				"writeJobFile"
+			],
+			[
+				"gre",
+				"generateOtherData"
+			],
+			[
+				"compay",
+				"companyModel"
+			],
+			[
+				"comma",
+				"companyModel"
+			],
+			[
+				"job",
+				"jobDatum"
+			],
+			[
+				"compa",
+				"companyId"
+			],
+			[
+				"work",
+				"workerTmpl"
+			],
+			[
+				"depa",
+				"department"
+			],
+			[
+				"corp",
+				"corporation\t(HrTree.react.jsx)"
+			],
+			[
+				"dep",
+				"department\t(HrTree.react.jsx)"
+			],
+			[
+				"crop",
+				"corporation\t(HrTree.react.jsx)"
+			],
+			[
+				"Form",
+				"FormItem"
+			],
+			[
+				"onCl",
+				"onClickEditOne"
+			],
+			[
+				"dis",
+				"disabled\t(JobsTable.react.jsx)"
+			],
+			[
+				"acti",
+				"activeAlias"
+			],
+			[
+				"act",
+				"activeAlias"
+			],
+			[
+				"visi",
+				"visibleWorkeModel"
+			],
+			[
+				"vis",
+				"visibleWorkeModel"
+			],
+			[
+				"onClik",
+				"onClickNewWroker"
+			],
+			[
+				"onClick",
+				"onClickNewWroker"
+			],
+			[
+				"J",
+				"JobsTable"
+			],
+			[
+				"is",
+				"isPrimary"
+			],
+			[
+				"S",
+				"Submenu"
+			],
+			[
+				"cor",
+				"corporation"
+			],
+			[
+				"con",
+				"console"
+			],
+			[
+				"HrT",
+				"HrTree.react\t(BodyContent.react.jsx)"
+			],
+			[
+				"fetch",
+				"fetchCompanies"
+			],
+			[
+				"getC",
+				"getCompanies"
+			],
+			[
+				"COM",
+				"Company\t(company.js)"
+			],
+			[
+				"Bo",
+				"BodyContent"
+			],
+			[
+				"or",
+				"organization"
+			],
+			[
+				"BO",
+				"BodyContent.react\t(index.js)"
+			],
+			[
+				"in",
+				"index.jsx"
+			],
+			[
+				"Item",
+				"ItemsActions"
+			],
+			[
+				"const",
+				"constants"
+			],
+			[
+				"quire",
+				"require\tvar x = require('x')"
+			],
+			[
+				"app",
+				"applyMiddleware"
+			],
+			[
+				"conso",
+				"console.info"
+			],
+			[
+				"do",
+				"document"
+			],
+			[
+				"R",
+				"ReactDOM"
+			],
+			[
+				"nit",
+				"getInitialState\t Life Cycle"
+			],
+			[
+				"base-",
+				"base-component\t(index.jsx)"
+			],
+			[
+				"we",
+				"weizoomCardMoney"
+			],
+			[
+				"vali",
+				"validateForm"
+			],
+			[
+				"ver",
+				"versions"
+			],
+			[
+				"bl",
+				"black_member_ids\t(email_notify.py)"
+			],
+			[
+				"payIN",
+				"payInterfaces"
+			],
+			[
+				"pay_in",
+				"pay_interfaces"
+			],
+			[
+				"js",
+				"json"
+			],
+			[
+				"ORDER_S",
+				"ORDER_STATUS_VALUE_ALIAS"
+			],
+			[
+				"ORD",
+				"ORDER_STATUS_VALUE_ALIAS"
+			],
+			[
+				"ex",
+				"extends\t(orders.html)"
+			],
+			[
+				"fil",
+				"filterOptions"
+			],
+			[
+				"cou",
+				"count_per_page\t(Action.js)"
+			],
+			[
+				"init",
+				"initDeliveryInfoTabs"
+			],
+			[
+				"cur",
+				"currentTabId"
+			],
+			[
+				"deliveritems",
+				"deliveryItems"
+			],
+			[
+				"origin",
+				"originOrderId"
+			],
+			[
+				"status",
+				"statusString"
+			],
+			[
+				"sta",
+				"statusString"
+			],
+			[
+				"Op",
+				"Operation.react\t(Page.react.js)"
+			],
+			[
+				"options",
+				"optionsOrderStatus"
+			],
+			[
+				"getOrder",
+				"getOrderById"
+			],
+			[
+				"deliv",
+				"deliveryItems"
+			],
+			[
+				"deli",
+				"deliveryId"
+			],
+			[
+				"colu",
+				"columes"
+			],
+			[
+				"getDa",
+				"getDataTable"
+			],
+			[
+				"row",
+				"rowFormatter"
+			],
+			[
+				"deliverItem",
+				"deliveryItem"
+			],
+			[
+				"wholeP",
+				"wholePromoInfo"
+			],
+			[
+				"grade",
+				"gradeDiscountMoney"
+			],
+			[
+				"promo",
+				"promotionSavedMoney"
+			],
+			[
+				"integ",
+				"integralMoney\t(order.py)"
+			],
+			[
+				"opera",
+				"operator\t(order.py)"
+			],
+			[
+				"getLogs",
+				"getLogsFromOrder"
+			],
+			[
+				"getLogsFrom",
+				"getLogsFromDeliveryItems"
+			],
+			[
+				"ope",
+				"operationLogs"
+			],
+			[
+				"Ope",
+				"OperationLogs"
+			],
+			[
+				"ev",
+				"event.target.getAttribute('data-id\t(Status.js)"
+			],
+			[
+				"get_",
+				"get_status_name"
+			],
+			[
+				"deliver",
+				"deliveryItem\t(Operation.react.js)"
+			],
+			[
+				"statusM",
+				"statusNames"
+			],
+			[
+				"fetchOrderItemBy",
+				"fetchOrderItemByDeliveryItemId"
+			],
+			[
+				"key",
+				"keyMirror\t(Constant.js)"
+			],
+			[
+				"onClickp",
+				"onClickPayOrder\t(Page.react.js)"
+			],
+			[
+				"ORDERS",
+				"ORDER_STATUS_NO_PAY"
+			],
+			[
+				"DO_",
+				"DO_PAY"
+			],
+			[
+				"onClickC",
+				"onClickCancelOrder\t(Page.react.js)"
+			],
+			[
+				"btn",
+				"btn-primary\t(Page.react.js)"
+			],
+			[
+				"onClickP",
+				"onClickPayOrder\t(Page.react.js)"
+			],
+			[
+				"isS",
+				"isOrderStatus"
+			],
+			[
+				"ORDER_A",
+				"ORDER_STATUS_ALIAS_VALUE\t(orders.html)"
+			],
+			[
+				"ORDER_",
+				"ORDER_STATUS_PAID_SHIPED"
+			],
+			[
+				"pay",
+				"payInterfaceType\t(orders.py)"
+			],
+			[
+				"rowF",
+				"rowFormatterNormal"
+			],
+			[
+				"isW",
+				"isWeiZoomMall\t(orders.py)"
+			],
+			[
+				"pagi",
+				"pagination_info"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+<<<<<<< HEAD:project.sublime-workspace
+			"file": "node/views/user/login.pug",
+			"settings":
+			{
+				"buffer_size": 1069,
+=======
+			"file": "node/src/components/organization/JobUserPanel.react.jsx",
+			"settings":
+			{
+				"buffer_size": 2644,
+>>>>>>> bbe48c3e461675372c84c00151dabb6115618b0f:xyre.sublime-workspace
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+<<<<<<< HEAD:project.sublime-workspace
+			"file": "node/routers/user/login.js",
+			"settings":
+			{
+				"buffer_size": 293,
+=======
+			"file": "node/src/index.jsx",
+			"settings":
+			{
+				"buffer_size": 1557,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "node/server.js",
+			"settings":
+			{
+				"buffer_size": 1051,
+>>>>>>> bbe48c3e461675372c84c00151dabb6115618b0f:xyre.sublime-workspace
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "node/routes/api/orgs.js",
+			"settings":
+			{
+<<<<<<< HEAD:project.sublime-workspace
+				"buffer_size": 367,
+=======
+				"buffer_size": 265,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "node/routes/api/jobs.js",
+			"settings":
+			{
+				"buffer_size": 346,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "node/views/organization/index.pug",
+			"settings":
+			{
+				"buffer_size": 283,
+>>>>>>> bbe48c3e461675372c84c00151dabb6115618b0f:xyre.sublime-workspace
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+<<<<<<< HEAD:project.sublime-workspace
+			"file": "node/views/head.pug",
+			"settings":
+			{
+				"buffer_size": 96,
+=======
+			"file": "node/routes/workflow/index.js",
+			"settings":
+			{
+				"buffer_size": 195,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "node/views/workflow/index.pug",
+			"settings":
+			{
+				"buffer_size": 282,
+>>>>>>> bbe48c3e461675372c84c00151dabb6115618b0f:xyre.sublime-workspace
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+<<<<<<< HEAD:project.sublime-workspace
+			"file": "node/components/layout/DefLayout.jsx",
+			"settings":
+			{
+				"buffer_size": 390,
+=======
+			"file": "node/views/base.pug",
+			"settings":
+			{
+				"buffer_size": 281,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "node/routes/organization/index.js",
+			"settings":
+			{
+				"buffer_size": 230,
+>>>>>>> bbe48c3e461675372c84c00151dabb6115618b0f:xyre.sublime-workspace
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+<<<<<<< HEAD:project.sublime-workspace
+			"file": "node/public/css/base.css",
+			"settings":
+			{
+				"buffer_size": 244,
+=======
+			"file": "node/views/organization",
+			"settings":
+			{
+				"buffer_size": 0,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "node/routes/api/users.js",
+			"settings":
+			{
+				"buffer_size": 350,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "node/routes/api/userByPostId.js",
+			"settings":
+			{
+				"buffer_size": 362,
+>>>>>>> bbe48c3e461675372c84c00151dabb6115618b0f:xyre.sublime-workspace
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "node/test/initMongoDb.js",
+			"settings":
+			{
+<<<<<<< HEAD:project.sublime-workspace
+				"buffer_size": 455,
+=======
+				"buffer_size": 4313,
+>>>>>>> bbe48c3e461675372c84c00151dabb6115618b0f:xyre.sublime-workspace
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+<<<<<<< HEAD:project.sublime-workspace
+			"file": "node/views/base.pug",
+			"settings":
+			{
+				"buffer_size": 324,
+=======
+			"file": "node/test/models/job.js",
+			"settings":
+			{
+				"buffer_size": 292,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "node/src/OrganizationPage.react.jsx",
+			"settings":
+			{
+				"buffer_size": 1406,
+>>>>>>> bbe48c3e461675372c84c00151dabb6115618b0f:xyre.sublime-workspace
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+<<<<<<< HEAD:project.sublime-workspace
+			"file": "node/routers/home/index.js",
+			"settings":
+			{
+				"buffer_size": 216,
+=======
+			"file": "node/package.json",
+			"settings":
+			{
+				"buffer_size": 2358,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "node/src/components/organization/HrTree.react.jsx",
+			"settings":
+			{
+				"buffer_size": 2066,
+>>>>>>> bbe48c3e461675372c84c00151dabb6115618b0f:xyre.sublime-workspace
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+<<<<<<< HEAD:project.sublime-workspace
+			"file": "node/views/user/login.css",
+			"settings":
+			{
+				"buffer_size": 350,
+=======
+			"file": "node/src/reducers/organization.js",
+			"settings":
+			{
+				"buffer_size": 521,
+>>>>>>> bbe48c3e461675372c84c00151dabb6115618b0f:xyre.sublime-workspace
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+<<<<<<< HEAD:project.sublime-workspace
+			"file": "node/views/base.css",
+			"settings":
+			{
+				"buffer_size": 436,
+=======
+			"file": "node/test/models/org.js",
+			"settings":
+			{
+				"buffer_size": 445,
+>>>>>>> bbe48c3e461675372c84c00151dabb6115618b0f:xyre.sublime-workspace
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "node/test/models/user.js",
+			"settings":
+			{
+				"buffer_size": 401,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "node/src/actions/organization.js",
+			"settings":
+			{
+				"buffer_size": 1467,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "node/src/reducers/index.js",
+			"settings":
+			{
+				"buffer_size": 388,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 87.0,
+		"last_filter": "installp",
+		"selected_items":
+		[
+			[
+				"installp",
+				"Package Control: Install Package"
+			],
+			[
+				"instalp",
+				"Package Control: Install Package"
+			],
+			[
+				"removep",
+				"Package Control: Remove Package"
+			],
+			[
+				"instap",
+				"Package Control: Install Package"
+			],
+			[
+				":w",
+				":w - Save"
+			],
+			[
+				"remo",
+				"Package Control: Remove Package"
+			],
+			[
+				"installpa",
+				"Package Control: Install Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"removepa",
+				"Package Control: Remove Package"
+			],
+			[
+				"instalpa",
+				"Package Control: Install Package"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"set jav",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"intsll",
+				"Package Control: Install Package"
+			],
+			[
+				"install pa",
+				"Package Control: Install Package"
+			],
+			[
+				"install pac",
+				"Package Control: Install Package"
+			],
+			[
+				"upgrade",
+				"Package Control: Upgrade Package"
+			],
+			[
+				"svnupda",
+				"SVN: Update"
+			],
+			[
+				"svnupdate",
+				"SVN: Update"
+			],
+			[
+				"svncom",
+				"SVN: Commit…"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Remove Package"
+			],
+			[
+				"svnup",
+				"SVN: Update"
+			],
+			[
+				"svncomm",
+				"SVN: Commit…"
+			],
+			[
+				"user",
+				"Preferences: Settings - User"
+			],
+			[
+				"Package Control: install",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 539.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = 'eb2297e1a458f27d836c04bb0cbaf282' + 'd0e7a3098092775ccb37ca9d6b2e4b7d'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+<<<<<<< HEAD:project.sublime-workspace
+		"/Users/liugenbin/microservices",
+		"/Users/liugenbin/microservices/node",
+		"/Users/liugenbin/microservices/node/bin",
+		"/Users/liugenbin/microservices/node/components",
+		"/Users/liugenbin/microservices/node/components/layout",
+		"/Users/liugenbin/microservices/node/components/lib",
+		"/Users/liugenbin/microservices/node/components/lib/dialog",
+		"/Users/liugenbin/microservices/node/components/lib/menu",
+		"/Users/liugenbin/microservices/node/components/user",
+		"/Users/liugenbin/microservices/node/public",
+		"/Users/liugenbin/microservices/node/public/css",
+		"/Users/liugenbin/microservices/node/public/html",
+		"/Users/liugenbin/microservices/node/public/img",
+		"/Users/liugenbin/microservices/node/public/js",
+		"/Users/liugenbin/microservices/node/routers",
+		"/Users/liugenbin/microservices/node/routers/home",
+		"/Users/liugenbin/microservices/node/routers/user",
+		"/Users/liugenbin/microservices/node/views",
+		"/Users/liugenbin/microservices/node/views/user"
+	],
+	"file_history":
+	[
+=======
+		"/Users/liugenbin/xyre_demo",
+		"/Users/liugenbin/xyre_demo/node",
+		"/Users/liugenbin/xyre_demo/node/core",
+		"/Users/liugenbin/xyre_demo/node/routes",
+		"/Users/liugenbin/xyre_demo/node/routes/api",
+		"/Users/liugenbin/xyre_demo/node/routes/organization",
+		"/Users/liugenbin/xyre_demo/node/routes/workflow",
+		"/Users/liugenbin/xyre_demo/node/src",
+		"/Users/liugenbin/xyre_demo/node/src/actions",
+		"/Users/liugenbin/xyre_demo/node/src/components",
+		"/Users/liugenbin/xyre_demo/node/src/components/common",
+		"/Users/liugenbin/xyre_demo/node/src/components/organization",
+		"/Users/liugenbin/xyre_demo/node/src/reducers",
+		"/Users/liugenbin/xyre_demo/node/static",
+		"/Users/liugenbin/xyre_demo/node/static/css",
+		"/Users/liugenbin/xyre_demo/node/test",
+		"/Users/liugenbin/xyre_demo/node/test/models",
+		"/Users/liugenbin/xyre_demo/node/views",
+		"/Users/liugenbin/xyre_demo/node/views/organization",
+		"/Users/liugenbin/xyre_demo/node/views/user",
+		"/Users/liugenbin/xyre_demo/node/views/workflow"
+	],
+	"file_history":
+	[
+		"/Users/liugenbin/xyre_demo/node/core/routes_loader.js",
+		"/Users/liugenbin/xyre_demo/node/webpack.config.js",
+		"/Users/liugenbin/xyre_demo/node/routes/index.js",
+		"/Users/liugenbin/xyre_demo/node/lib/components/organization/style.scss",
+		"/Users/liugenbin/xyre_demo/node/src/components/organization/RolesTable.react.jsx",
+		"/Users/liugenbin/xyre_demo/node/src/components/organization/UserModal.react.jsx",
+		"/Users/liugenbin/xyre_demo/node/src/components/organization/JobModal.react.jsx",
+		"/Users/liugenbin/xyre_demo/node/src/components/organization/WorkerTable.react.jsx",
+		"/Users/liugenbin/xyre_demo/node/test/worker.json",
+		"/Users/liugenbin/xyre_demo/node/test/initJobWorker.js",
+		"/Users/liugenbin/xyre_demo/node/test/initOrg.js",
+		"/Users/liugenbin/xyre_demo/node/test/initCompany.js",
+		"/Users/liugenbin/xyre_demo/node/routers/api/companies.js",
+		"/Users/liugenbin/xyre_demo/node/routers/api/models/user.js",
+		"/Users/liugenbin/xyre_demo/node/routers/api/models/job.js",
+		"/Users/liugenbin/xyre_demo/node/src/reducers/jobs.js",
+		"/Users/liugenbin/xyre_demo/node/src/components/organization/JobTable.react.jsx",
+		"/Users/liugenbin/Library/Application Support/Sublime Text 3/Packages/JsFormat/JsFormat.sublime-settings",
+		"/Users/liugenbin/xyre_demo/node/src/reducers/companies.js",
+		"/Users/liugenbin/xyre_demo/node/src/components/organization/HrTree.react.jsx",
+		"/Users/liugenbin/xyre_demo/node/package.json",
+		"/Users/liugenbin/xyre_demo/node/src/reducers/organizations.js",
+		"/Users/liugenbin/xyre_demo/node/src/constants/organizations.jsx",
+		"/Users/liugenbin/xyre_demo/node/test/job.json",
+		"/Users/liugenbin/xyre_demo/node/routers/api/models/company.js",
+		"/Users/liugenbin/xyre_demo/node/test/initMongoDb.js",
+		"/Users/liugenbin/xyre_demo/node/src/components/JobsTable.react.jsx",
+		"/Users/liugenbin/xyre_demo/node/src/components/WorkerTable.react.jsx",
+		"/Users/liugenbin/xyre_demo/node/src/configureStore.js",
+		"/Users/liugenbin/xyre_demo/node/src/actions/organizations.js",
+		"/Users/liugenbin/xyre_demo/node/src/components/organization/WorkerModel.react.jsx",
+		"/Users/liugenbin/xyre_demo/node/src/components/organization/JobModel.react.jsx",
+		"/Users/liugenbin/xyre_demo/node/src/components/organization/JobWorkerOperation.react.jsx",
+		"/Users/liugenbin/xyre_demo/node/src/BodyContent.react.jsx",
+		"/Users/liugenbin/xyre_demo/node/static/css/components/organization/style.scss",
+		"/Users/liugenbin/xyre_demo/node/src/components/organization/JobWorkerTab.react.jsx",
+		"/Users/liugenbin/xyre_demo/node/src/common/HrTree.react.jsx",
+		"/Users/liugenbin/xyre_demo/node/src/index.jsx",
+		"/Users/liugenbin/xyre_demo/node/server.js",
+		"/Users/liugenbin/xyre_demo/node/views/base.pug",
+		"/Users/liugenbin/xyre_demo/node/settings.js",
+		"/Users/liugenbin/xyre_demo/node/src/reducers/organization.js",
+		"/Users/liugenbin/xyre_demo/node/routers/api/organizations.js",
+		"/Users/liugenbin/xyre_demo/node/lib/actions/organizations.js",
+		"/Users/liugenbin/Library/Application Support/Sublime Text 3/Packages/JsFormat/Default (OSX).sublime-keymap",
+		"/Users/liugenbin/xyre_demo/node/lib/index.js",
+		"/Users/liugenbin/xyre_demo/node/.jshintrc",
+		"/Users/liugenbin/xyre_demo/node/lib/BodyContent.react.js",
+		"/Users/liugenbin/xyre_demo/node/lib/reducers/organization.js",
+		"/Users/liugenbin/xyre_demo/node/.babelrc",
+		"/Users/liugenbin/xyre_demo/node/components/common/reducers.js",
+		"/Users/liugenbin/xyre_demo/node/routers/api/models/organization.js",
+		"/Users/liugenbin/xyre_demo/node/test/init.js",
+		"/Users/liugenbin/xyre_demo/nginx/web/js/test.js",
+		"/Users/liugenbin/xyre_demo/node/components/common/store.js",
+		"/Users/liugenbin/xyre_demo/node/components/organization.jsx",
+		"/Users/liugenbin/xyre_demo/node/components/actions",
+		"/Users/liugenbin/xyre_demo/node/components/index.jsx",
+		"/Users/liugenbin/xyre_demo/node/routers/test/data/init.js",
+		"/Users/liugenbin/xyre_demo/0.start_dbs.sh",
+		"/Users/liugenbin/xyre_demo/1.bundle.sh",
+		"/Users/liugenbin/xyre_demo/node/components/base.scss",
+		"/Users/liugenbin/Library/Application Support/Sublime Text 3/Packages/User/JavascriptBeautify.sublime-settings",
+		"/Users/liugenbin/microservices/node/server.js",
+		"/Users/liugenbin/xyre_demo/node/.eslintrc.js",
+		"/Users/liugenbin/xyre_demo/node/views/base.css",
+		"/Users/liugenbin/xyre_demo/node/components/lib/menu/Menu.react.js",
+		"/Users/liugenbin/xyre_demo/node/views/footer.pug",
+		"/Users/liugenbin/Library/Application Support/Sublime Text 3/Packages/Javascript Beautify/JavascriptBeautify.sublime-settings",
+		"/Users/liugenbin/Library/Application Support/Sublime Text 3/Packages/Javascript Beautify/Default (OSX).sublime-keymap",
+		"/Users/liugenbin/xyre_demo/3.start_bundle.sh",
+		"/Users/liugenbin/xyre_demo/3.start_node.sh",
+>>>>>>> bbe48c3e461675372c84c00151dabb6115618b0f:xyre.sublime-workspace
+		"/Users/liugenbin/microservices/node/views/base.css",
+		"/Users/liugenbin/microservices/node/components/lib/menu/Menu.jsx",
+		"/Users/liugenbin/microservices/node/routers/user/login.js",
+		"/Users/liugenbin/microservices/node/components/layout/Normal.scss",
+		"/Users/liugenbin/microservices/node/components/base.scss",
+		"/Users/liugenbin/microservices/node/views/404.pug",
+		"/Users/liugenbin/microservices/node/routers/home/index.js",
+		"/Users/liugenbin/microservices/node/views/footer.pug",
+		"/Users/liugenbin/microservices/node/views/head.pug",
+		"/Users/liugenbin/microservices/node/components/user/Auth.scss",
+		"/Users/liugenbin/microservices/node/components/lib/dialog/Dialog.jsx",
+		"/Users/liugenbin/microservices/node/components/user/Auth.jsx",
+<<<<<<< HEAD:project.sublime-workspace
+		"/Users/liugenbin/microservices/node/server.js",
+=======
+>>>>>>> bbe48c3e461675372c84c00151dabb6115618b0f:xyre.sublime-workspace
+		"/Users/liugenbin/microservices/node/components/index.jsx",
+		"/Users/liugenbin/microservices/node/components/layout/Normal.jsx",
+		"/Users/liugenbin/microservices/node/components/layout/LeftMenu.jsx",
+		"/Users/liugenbin/microservices/node/views/base.pug",
+		"/Users/liugenbin/microservices/node/public/css/base.css",
+<<<<<<< HEAD:project.sublime-workspace
+		"/Users/liugenbin/Library/Application Support/Sublime Text 3/Packages/Javascript Beautify/JavascriptBeautify.sublime-settings",
+=======
+>>>>>>> bbe48c3e461675372c84c00151dabb6115618b0f:xyre.sublime-workspace
+		"/Users/liugenbin/microservices/node/bin/www",
+		"/Users/liugenbin/Library/Application Support/Sublime Text 3/Packages/Origami/Origami.sublime-settings",
+		"/Users/liugenbin/microservices/node/webpack.config.js",
+		"/Users/liugenbin/microservices/node/package.json",
+		"/Users/liugenbin/microservices/node/static/style/base.css",
+		"/Users/liugenbin/microservices/node/views/top.pug",
+		"/Users/liugenbin/microservices/node/components/layout/normal.jsx",
+		"/Users/liugenbin/microservices/node/components/base.css",
+		"/Users/liugenbin/microservices/docker-compose.yml",
+		"/Users/liugenbin/microservices/node/bundle.js",
+		"/Users/liugenbin/microservices/node/views/user/login.jade",
+		"/Users/liugenbin/microservices/project.sublime-project",
+		"/Users/liugenbin/microservices/node/views/base_page.jade",
+		"/Users/liugenbin/microservices/node/.babelrc",
+		"/Users/liugenbin/Library/Application Support/Sublime Text 3/Packages/Terminal/Default (OSX).sublime-keymap",
+		"/Users/liugenbin/mycodes/console_docker/init_containers.sh",
+		"/Users/liugenbin/weizoom/hermes/order/orders.py",
+		"/Users/liugenbin/weizoom/hermes/static/component/config/pay_interface/WeixinPayV3Config.react.js",
+		"/Users/liugenbin/weizoom/hermes/static/component/config/pay_interface/Page.react.js",
+		"/Users/liugenbin/weizoom/hermes/static/component/config/pay_interface/AliPayConfig.react.js",
+		"/Users/liugenbin/weizoom/hermes/order/pay_order.py",
+		"/Users/liugenbin/weizoom/hermes/config/email_notify.py",
+		"/Users/liugenbin/weizoom/hermes/static/component/config/email_notify/Page.react.js",
+		"/Users/liugenbin/weizoom/hermes/static/component/config/pay_interface/WeixinPayV2Config.react.js",
+		"/Users/liugenbin/weizoom/hermes/static/component/order/order/Store.js",
+		"/Users/liugenbin/weizoom/hermes/order/order.py",
+		"/Users/liugenbin/weizoom/hermes/static/component/order/orders/ShipOrderDialog.react.js",
+		"/Users/liugenbin/weizoom/hermes/static/component/order/order/OrderOperations.react.js",
+		"/Users/liugenbin/weizoom/hermes/order/p",
+		"/Users/liugenbin/weizoom/hermes/service.json",
+		"/Users/liugenbin/weizoom/hermes/node_modules/webase/lib/component/form_static_text/FormStaticText.react.js",
+		"/Users/liugenbin/weizoom/hermes/static/component/mall/product/PayInterfaceConfig.react.js",
+		"/Users/liugenbin/weizoom/hermes/static/component/config/pay_interface/style.scss",
+		"/Users/liugenbin/weizoom/hermes/static/component/config/email_notify_list/Store.js",
+		"/Users/liugenbin/weizoom/hermes/static/component/order/orders/Action.js",
+		"/Users/liugenbin/weizoom/hermes/config/email_notify_list.py",
+		"/Users/liugenbin/weizoom/hermes/config/update_email_notification.py",
+		"/Users/liugenbin/weizoom/hermes/config/email_notification_activity.py",
+<<<<<<< HEAD:project.sublime-workspace
+		"/Users/liugenbin/weizoom/hermes/static/component/config/email_notify/Action.js",
+		"/Users/liugenbin/weizoom/hermes/static/component/config/email_notify_list/Page.react.js",
+		"/Users/liugenbin/weizoom/hermes/static/component/config/email_notify_list/Action.js",
+		"/Users/liugenbin/weizoom/hermes/static/component/config/email_notify/Store.js",
+		"/Users/liugenbin/weizoom/hermes/config/__init__.py",
+		"/Users/liugenbin/weizoom/hermes/static/component/order/order/Operation.react.js",
+		"/Users/liugenbin/weizoom/hermes/config/pay_interface_activity.py",
+		"/Users/liugenbin/weizoom/hermes/node_modules/webase/lib/component/table/TableActionButton.react.js",
+		"/Users/liugenbin/weizoom/hermes/static/component/config/email_notify_list/Constant.js",
+		"/Users/liugenbin/weizoom/hermes/static/component/order/audit/Store.js",
+		"/Users/liugenbin/weizoom/hermes/static/component/config/pay_interface_list/Page.react.js",
+		"/Users/liugenbin/weizoom/hermes/config/pay_interface_list.py",
+		"/Users/liugenbin/weizoom/hermes/static/component/config/pay_interface_list/Store.js",
+		"/Users/liugenbin/weizoom/hermes/static/component/config/pay_interface_list/Action.js",
+		"/Users/liugenbin/weizoom/hermes/static/component/order/audit/Page.react.js",
+		"/Users/liugenbin/weizoom/hermes/static/component/order/orders/Page.react.js",
+		"/Users/liugenbin/weizoom/hermes/order/audit.py",
+		"/Users/liugenbin/weizoom/hermes/static/component/order/orders/Store.js",
+		"/Users/liugenbin/weizoom/hermes/static/component/order/orders/style.scss",
+		"/Users/liugenbin/weizoom/hermes/static/component/order/audit/style.scss",
+		"/Users/liugenbin/weizoom/hermes/static/component/order/orders/Tab.scss",
+		"/Users/liugenbin/weizoom/hermes/static/component/order/audit/Tab.scss",
+		"/Users/liugenbin/weizoom/hermes/static/component/order/audit/Tab.react.js",
+		"/Users/liugenbin/weizoom/hermes/static/component/order/orders/Tab.react.js",
+		"/Users/liugenbin/Library/Application Support/Sublime Text 3/Packages/User/SBSCompare.sublime-settings",
+		"/Users/liugenbin/Library/Application Support/Sublime Text 3/Packages/Compare Side-By-Side/SBSCompare.sublime-settings",
+		"/Users/liugenbin/weizoom/hermes/static/component/order/orders/BottomRow.react.js",
+		"/Users/liugenbin/weizoom/hermes/hermes/settings.py",
+		"/Users/liugenbin/weizoom/hermes/dist/order/orders.py",
+		"/Users/liugenbin/weizoom/hermes/dist/order/order.py",
+		"/Users/liugenbin/weizoom/hermes/dist/order/audit.py",
+		"/Users/liugenbin/weizoom/hermes/static/component/order/order/Page.react.js",
+		"/Users/liugenbin/weizoom/hermes/node_modules/webase/lib/component/page/Header.react.js",
+		"/Users/liugenbin/weizoom/hermes/Gruntfile.js",
+		"/Users/liugenbin/weizoom/hermes/templates/base.html",
+		"/Users/liugenbin/weizoom/hermes/dist/static/component/order/orders/BottomRow.react.js",
+		"/Users/liugenbin/weizoom/hermes/dist/static/component/order/audit/style.scss",
+		"/Users/liugenbin/weizoom/hermes/dist/static/component/order/orders/style.scss",
+		"/Users/liugenbin/weizoom/hermes/static/component/order/config/Page.react.js",
+		"/Users/liugenbin/weizoom/hermes/order/config.py",
+		"/Users/liugenbin/weizoom/hermes/node_modules/webase/lib/component/breadcrumb/style.css",
+		"/Users/liugenbin/weizoom/hermes/node_modules/webase/lib/component/form_datetime_input/style.css",
+		"/Users/liugenbin/weizoom/hermes/node_modules/webase/lib/component/form_file_uploader/FormFileUploader.react.js",
+		"/Users/liugenbin/weizoom/hermes/node_modules/webase/lib/component/page/Footer.react.js",
+		"/Users/liugenbin/weizoom/hermes/node_modules/webase/lib/component/page/style.css",
+		"/Users/liugenbin/weizoom/hermes/node_modules/webase/lib/component/second_nav/style.css",
+		"/Users/liugenbin/weizoom/hermes/node_modules/webase/lib/component/wepage_editor/style.css",
+		"/Users/liugenbin/weizoom/hermes/node_modules/webase/lib/component/wepage_editor/wepage/component/common/design.css",
+		"/Users/liugenbin/weizoom/hermes/node_modules/webase/lib/component/wepage_editor/wepage/property_fields/style.css",
+		"/Users/liugenbin/weizoom/hermes/core/context_processors.py",
+		"/Users/liugenbin/weizoom/hermes/static/component/mall/product/Images.react.js",
+		"/Users/liugenbin/weizoom/hermes/static/component/mall/product/style.scss",
+		"/Users/liugenbin/weizoom/hermes/static/component/mall/product_model_properties/NameCell.scss",
+		"/Users/liugenbin/weizoom/hermes/static/component/mall/product_model_properties/NavTabs.scss",
+		"/Users/liugenbin/weizoom/hermes/static/component/mall/product_model_properties/ValuesCell.react.js",
+		"/Users/liugenbin/weizoom/hermes/static/component/mall/property_templates/EditPropertyDialog.scss",
+		"/Users/liugenbin/weizoom/hermes/static/component/mall/property_templates/NavTabs.scss",
+		"/Users/liugenbin/weizoom/hermes/static/component/member/members/Page.react.js",
+		"/Users/liugenbin/weizoom/hermes/static/component/order/audit/BottomRow.react.js",
+		"/Users/liugenbin/weizoom/hermes/static/component/order/config/style.css",
+		"/Users/liugenbin/weizoom/hermes/static/css/base.css",
+		"/Users/liugenbin/weizoom/hermes/static/css/hermes.css",
+		"/Users/liugenbin/weizoom/hermes/static/css/login.css",
+		"/Users/liugenbin/weizoom/hermes/static/css/reactman_bootstrap.css",
+		"/Users/liugenbin/weizoom/hermes/webpack.config.js",
+		"/Users/liugenbin/weizoom/hermes/hermes_static/component/mall/product/Images.react.js",
+		"/Users/liugenbin/weizoom/hermes/hermes_static/component/mall/product/style.scss",
+		"/Users/liugenbin/weizoom/hermes/hermes_static/component/mall/product_model_properties/NameCell.scss",
+		"/Users/liugenbin/weizoom/hermes/hermes_static/component/mall/product_model_properties/NavTabs.scss"
+=======
+		"/Users/liugenbin/weizoom/hermes/static/component/config/email_notify/Action.js"
+>>>>>>> bbe48c3e461675372c84c00151dabb6115618b0f:xyre.sublime-workspace
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 94.0,
+		"where_history":
+		[
+			"/Users/liugenbin/xyre_demo/node, -/*node_modules/*, -/*static/*, -/*dist/*, -/*lib/*",
+			"/Users/liugenbin/xyre_demo/node, -node_modules/**, -static/*.js, -dist/**, -/lib/*",
+			"/Users/liugenbin/xyre_demo/node, -node_modules/**, -static/*.js, -dist/**, -/*lib/*",
+			"/Users/liugenbin/xyre_demo/node,-node_modules/**, -static/*.js, -dist/**, -lib/**",
+			"/Users/liugenbin/xyre_demo/node,-node_modules/**, -static/*.js, -dist/**",
+			"/Users/liugenbin/xyre_demo/node,-node_modules/**, -static/*.js",
+			"/Users/liugenbin/xyre_demo/node,-node_modules/**, -public/*.js",
+			"/Users/liugenbin/microservices/node,-node_modules/**, -public/*.js",
+			"/Users/liugenbin/microservices/node,-node_modules/**",
+			"/Users/liugenbin/microservices/node,-node_modules",
+			"/Users/liugenbin/weizoom/hermes/",
+			"/Users/liugenbin/weizoom/hermes/, *.scss",
+			"/Users/liugenbin/weizoom/hermes/",
+			"/Users/liugenbin/weizoom/hermes/, *.js",
+			"/Users/liugenbin/weizoom/hermes/",
+			"/Users/liugenbin/weizoom/hermes/orders/",
+			"/Users/liugenbin/weizoom/hermes/orders",
+			"/Users/liugenbin/weizoom/hermes/order",
+			"/Users/liugenbin/weizoom/hermes",
+			"/Users/liugenbin/weizoom/hermes/core",
+			"/Users/liugenbin/weizoom/hermes",
+			"/Users/liugenbin/weizoom/hermes, *.js",
+			"/Users/liugenbin/weizoom/hermes",
+			"/Users/liugenbin/weizoom/hermes, *.react.js",
+			"/Users/liugenbin/weizoom/hermes, *.py",
+			"/Users/liugenbin/weizoom/hermes",
+			"/Users/liugenbin/weizoom/hermes, *.html",
+			"/Users/liugenbin/weizoom/hermes/*.html",
+			"/Users/liugenbin/weizoom/hermes",
+			"/Users/liugenbin/weizoom/Weapp/weapp",
+			"/Users/liugenbin/Downloads/new_reactmall",
+			"/Users/liugenbin/Downloads/new_reactmall/static",
+			"/Users/liugenbin/Downloads/new_reactmall/routes",
+			"/Users/liugenbin/Downloads/new_reactmall"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": true,
+		"find_history":
+		[
+<<<<<<< HEAD:project.sublime-workspace
+			"bg_login_01.jpg",
+			"NormalLayout",
+			"formGroupExampleInput2",
+			"formGroupExampleInput",
+			"css/base.css",
+			"class",
+			"options",
+			"menuOptions",
+			"options",
+			"Layout",
+			"href",
+			"class",
+			"setting",
+			"server",
+			"base.pug",
+			"base-component",
+			"web_node",
+			"web_node_bak",
+			"jade",
+=======
+			"routeFiles",
+			"apiRouters",
+			"pageRouters",
+			"apiRouters",
+>>>>>>> bbe48c3e461675372c84c00151dabb6115618b0f:xyre.sublime-workspace
+			"var",
+			"apiRoutes",
+			"apiRouters",
+			"url",
+			"routeFiles",
+			"org",
+			"routesLoader",
+			"items",
+			"routePath",
+			"routers",
+			"items",
+			"reqPathes",
+			"urlPathes",
+			"../routers/api/models",
+			"resource",
+			"apiUrlPath",
+			"module",
+			"resources",
+			"var",
+			"stat",
+			"requirePath",
+			"resources",
+			"orgId",
+			"WORKER",
+			"JobWorkerPanel",
+			"workerModel",
+			"UserModel",
+			"WorkerModal",
+			"columnsWorker",
+			"JobWorkerPanel",
+			"name",
+			"depa",
+			"department",
+			"comp",
+			"company",
+			"corp",
+			"corporation",
+			"onw",
+			"grp",
+			"group",
+			"api/companyies",
+			"companyModel",
+			"org",
+			"companies",
+			"ByLeafId",
+			"leafId",
+			"companyId",
+			"workers",
+			"workers:",
+			"_WORKERS_",
+			"_WORDERS_",
+			"_FETCH_",
+			"_LEADER_ID",
+			"ORGANIZATIONS_FETCH_JOBS_BY_LEADER_ID",
+			"receiveJobsByLeafId",
+			"leafId",
+			"workerModel",
+			"workerQ",
+			"importWorkerFile",
+			"worker",
+			"workerDatum",
+			"userTmpl",
+			"writeWorkerFile",
+			"writeJobFile",
+			"jobData",
+			"setTimeout",
+			"workerData",
+			"orgId",
+			"jobId",
+			"workerDatum",
+			"portDuty",
+			"companyId",
+			"org",
+			"department",
+			"org",
+			"company",
+			"corporation",
+			"org",
+			"group",
+			"UserSchema",
+			"companyModel",
+			"dataTmpl",
+			"workerData",
+			"jobTmpl",
+			"workerTmpl",
+			"workerModel",
+			"Worker",
+			"WorkerSchema",
+			"company",
+			"companyModel",
+			"companySchema",
+			"jobId",
+			"name",
+			"_LEAF_ID",
+			"COMPANY_FETCH_ALL",
+			"companyId",
+			"jobId",
+			"leafId",
+			"companyId",
+			"jobs",
+			"jobModel",
+			"companyId",
+			"jobs",
+			"receiveJobsByLeafId",
+			"columnsJob",
+			"columns",
+			"const",
+			"JobWorkerPanel",
+			"dataSource",
+			"debugger",
+			"companies",
+			"debug",
+			"companies",
+			"reducers/",
+			"reducers/organizations",
+			"constants/organizations",
+			"jobQ",
+			"JobWorkerTab",
+			"key",
+			"status",
+<<<<<<< HEAD:project.sublime-workspace
+			"if",
+			"Store.getOrder",
+			"Store.getOrderBydeliveryItemId",
+			"Store.getOrderById",
+			"Store.getDeliveryItemById",
+			"Webase.FilterPanel",
+			"tabs",
+			"handleDeliveryAndLogsTab",
+			"handleSetAllTabs",
+			"initDeliveryInfoTabs",
+			"setAllTabs",
+			"initDeliveryTabs",
+			"order",
+			"getAllDeliveryItemId",
+			"initDeliveryTabs",
+			"getAllDeliveryItemId",
+			"tab",
+			"PayOrderDialog",
+			"data.state",
+			"state",
+			"order",
+			"fetchOrderItemById",
+			"fetchOrderByDeliveryItemId",
+			"order",
+			"statusNames",
+			"param.data.",
+			"props"
+=======
+			"jobName",
+			"sort",
+			"isPrimary",
+			"docs"
+>>>>>>> bbe48c3e461675372c84c00151dabb6115618b0f:xyre.sublime-workspace
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"./models",
+			"ByOrgId",
+			"orgId",
+			"users",
+			"_USERS_",
+			"_GET_",
+			"_ORG_ID",
+			"_LEADER_ID",
+			"ORGANIZATION_GET_ALL",
+			"getJobDataByLeafId",
+			" />",
+			"<",
+			"\"small\"",
+			"WorkerModal",
+			"JobModal",
+			"WorkerTable",
+			"JobTable",
+			"JobWorkerPanel",
+			"api/companies",
+			"organizations",
+			"'allow': true",
+			"_",
+			"base-container",
+			"memberInfo",
+			"",
+			"static",
+			"mallInfo",
+			"/static/img/",
+			"/hermes_static/img/",
+			"OrderOperations",
+			"get_status",
+			"use('gaia')",
+			"ORDER_STATUS_PAID_SHIPPED",
+			"color: color.primary",
+			"do:",
+			"OrderPage",
+			"\\.current\\.",
+			"refundInfo\\.",
+			"",
+			"data",
+			"request.user.id",
+			"request.user.corp.id",
+			"PayOrderDialog",
+			"",
+			"className=",
+			"RemarkPopover",
+			"Total",
+			"Detail",
+			"eaeef6",
+			"    ",
+			"className=",
+			"    ",
+			""
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+<<<<<<< HEAD:project.sublime-workspace
+			"selected": 3,
+=======
+			"selected": 1,
+>>>>>>> bbe48c3e461675372c84c00151dabb6115618b0f:xyre.sublime-workspace
+			"sheets":
+			[
+				{
+					"buffer": 0,
+<<<<<<< HEAD:project.sublime-workspace
+					"file": "node/views/user/login.pug",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1069,
+=======
+					"file": "node/src/components/organization/JobUserPanel.react.jsx",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2644,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2150,
+								2150
+							]
+						],
+						"settings":
+						{
+							"highlight_line": false,
+							"syntax": "Packages/JSX/JSX.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true,
+							"vintage":
+							{
+								"_vintageous_glue_until_normal_mode": false,
+								"_vintageous_non_interactive": false,
+								"_vintageous_processing_notation": false,
+								"action": null,
+								"action_count": "",
+								"mode": "mode_normal",
+								"motion": null,
+								"motion_count": "",
+								"must_capture_register_name": false,
+								"normal_insert_count": "1",
+								"partial_sequence": "",
+								"register": "\"",
+								"sequence": "",
+								"xpos": 0
+							}
+						},
+						"translation.x": 0.0,
+						"translation.y": 308.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "node/src/index.jsx",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1557,
+>>>>>>> bbe48c3e461675372c84c00151dabb6115618b0f:xyre.sublime-workspace
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+<<<<<<< HEAD:project.sublime-workspace
+								887,
+								887
+=======
+								522,
+								522
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JSX/JSX.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true,
+							"vintage":
+							{
+								"_vintageous_glue_until_normal_mode": false,
+								"_vintageous_non_interactive": false,
+								"_vintageous_processing_notation": false,
+								"action": null,
+								"action_count": "",
+								"mode": "mode_normal",
+								"motion": null,
+								"motion_count": "",
+								"must_capture_register_name": false,
+								"normal_insert_count": "1",
+								"partial_sequence": "",
+								"register": "\"",
+								"sequence": "",
+								"xpos": 50
+							}
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "node/server.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1051,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								560,
+								560
+>>>>>>> bbe48c3e461675372c84c00151dabb6115618b0f:xyre.sublime-workspace
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Babel/JavaScript (Babel).sublime-syntax",
+							"vintage":
+							{
+								"_vintageous_glue_until_normal_mode": false,
+								"_vintageous_non_interactive": false,
+								"_vintageous_processing_notation": false,
+								"action": null,
+								"action_count": "",
+								"mode": "mode_normal",
+								"motion": null,
+								"motion_count": "",
+								"must_capture_register_name": false,
+								"normal_insert_count": "1",
+								"partial_sequence": "",
+								"register": "\"",
+								"sequence": "",
+<<<<<<< HEAD:project.sublime-workspace
+								"xpos": 0
+=======
+								"xpos": 10
+							}
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 12,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "node/routes/api/orgs.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 265,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								143,
+								143
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Babel/JavaScript (Babel).sublime-syntax",
+							"vintage":
+							{
+								"_vintageous_glue_until_normal_mode": false,
+								"action": null,
+								"action_count": "",
+								"mode": "mode_normal",
+								"motion": null,
+								"motion_count": "",
+								"must_capture_register_name": false,
+								"normal_insert_count": "1",
+								"partial_sequence": "",
+								"register": "\"",
+								"sequence": "",
+								"xpos": 33
+>>>>>>> bbe48c3e461675372c84c00151dabb6115618b0f:xyre.sublime-workspace
+							}
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+<<<<<<< HEAD:project.sublime-workspace
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "node/routers/user/login.js",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 293,
+=======
+					"stack_index": 13,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "node/routes/api/jobs.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 346,
+>>>>>>> bbe48c3e461675372c84c00151dabb6115618b0f:xyre.sublime-workspace
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+<<<<<<< HEAD:project.sublime-workspace
+								0,
+								0
+=======
+								345,
+								345
+>>>>>>> bbe48c3e461675372c84c00151dabb6115618b0f:xyre.sublime-workspace
+							]
+						],
+						"settings":
+						{
+<<<<<<< HEAD:project.sublime-workspace
+=======
+							"open_with_edit": true,
+>>>>>>> bbe48c3e461675372c84c00151dabb6115618b0f:xyre.sublime-workspace
+							"syntax": "Packages/Babel/JavaScript (Babel).sublime-syntax",
+							"vintage":
+							{
+								"action": null,
+								"action_count": "",
+								"mode": "mode_normal",
+								"motion": null,
+								"motion_count": "",
+								"must_capture_register_name": false,
+								"partial_sequence": "",
+								"register": "\"",
+								"sequence": "",
+<<<<<<< HEAD:project.sublime-workspace
+								"xpos": 0
+=======
+								"xpos": 23
+>>>>>>> bbe48c3e461675372c84c00151dabb6115618b0f:xyre.sublime-workspace
+							}
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+<<<<<<< HEAD:project.sublime-workspace
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "node/components/index.jsx",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 367,
+=======
+					"stack_index": 11,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "node/views/organization/index.pug",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 283,
+>>>>>>> bbe48c3e461675372c84c00151dabb6115618b0f:xyre.sublime-workspace
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+<<<<<<< HEAD:project.sublime-workspace
+								194,
+								194
+=======
+								41,
+								41
+>>>>>>> bbe48c3e461675372c84c00151dabb6115618b0f:xyre.sublime-workspace
+							]
+						],
+						"settings":
+						{
+<<<<<<< HEAD:project.sublime-workspace
+							"syntax": "Packages/JSX/JSX.tmLanguage",
+=======
+							"open_with_edit": true,
+							"syntax": "Packages/Pug/Syntaxes/Pug.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true,
+>>>>>>> bbe48c3e461675372c84c00151dabb6115618b0f:xyre.sublime-workspace
+							"vintage":
+							{
+								"_vintageous_glue_until_normal_mode": false,
+								"action": null,
+								"action_count": "",
+								"mode": "mode_normal",
+								"motion": null,
+								"motion_count": "",
+								"must_capture_register_name": false,
+								"normal_insert_count": "1",
+								"partial_sequence": "",
+								"register": "\"",
+								"sequence": "",
+<<<<<<< HEAD:project.sublime-workspace
+								"xpos": 18
+=======
+								"xpos": 14
+>>>>>>> bbe48c3e461675372c84c00151dabb6115618b0f:xyre.sublime-workspace
+							}
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+<<<<<<< HEAD:project.sublime-workspace
+					"stack_index": 9,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "node/views/head.pug",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 96,
+=======
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "node/routes/workflow/index.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 195,
+>>>>>>> bbe48c3e461675372c84c00151dabb6115618b0f:xyre.sublime-workspace
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+<<<<<<< HEAD:project.sublime-workspace
+								96,
+								96
+=======
+								153,
+								153
+>>>>>>> bbe48c3e461675372c84c00151dabb6115618b0f:xyre.sublime-workspace
+							]
+						],
+						"settings":
+						{
+							"highlight_line": false,
+<<<<<<< HEAD:project.sublime-workspace
+							"syntax": "Packages/Pug/Syntaxes/Pug.tmLanguage",
+=======
+							"syntax": "Packages/Babel/JavaScript (Babel).sublime-syntax",
+>>>>>>> bbe48c3e461675372c84c00151dabb6115618b0f:xyre.sublime-workspace
+							"vintage":
+							{
+								"_vintageous_glue_until_normal_mode": false,
+								"action": null,
+								"action_count": "",
+								"mode": "mode_normal",
+								"motion": null,
+								"motion_count": "",
+								"must_capture_register_name": false,
+								"normal_insert_count": "1",
+								"partial_sequence": "",
+								"register": "\"",
+								"sequence": "",
+<<<<<<< HEAD:project.sublime-workspace
+								"xpos": 32
+=======
+								"xpos": 29
+>>>>>>> bbe48c3e461675372c84c00151dabb6115618b0f:xyre.sublime-workspace
+							}
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 8,
+					"type": "text"
+				},
+				{
+<<<<<<< HEAD:project.sublime-workspace
+					"buffer": 4,
+					"file": "node/components/layout/DefLayout.jsx",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 390,
+=======
+					"buffer": 7,
+					"file": "node/views/workflow/index.pug",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 282,
+>>>>>>> bbe48c3e461675372c84c00151dabb6115618b0f:xyre.sublime-workspace
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+<<<<<<< HEAD:project.sublime-workspace
+								331,
+								331
+=======
+								222,
+								222
+>>>>>>> bbe48c3e461675372c84c00151dabb6115618b0f:xyre.sublime-workspace
+							]
+						],
+						"settings":
+						{
+<<<<<<< HEAD:project.sublime-workspace
+							"syntax": "Packages/JSX/JSX.tmLanguage",
+=======
+							"syntax": "Packages/Pug/Syntaxes/Pug.tmLanguage",
+>>>>>>> bbe48c3e461675372c84c00151dabb6115618b0f:xyre.sublime-workspace
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true,
+							"vintage":
+							{
+								"_vintageous_glue_until_normal_mode": false,
+								"action": null,
+								"action_count": "",
+								"mode": "mode_normal",
+								"motion": null,
+								"motion_count": "",
+								"must_capture_register_name": false,
+								"normal_insert_count": "1",
+								"partial_sequence": "",
+								"register": "\"",
+								"sequence": "",
+								"xpos": 18
+							}
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+<<<<<<< HEAD:project.sublime-workspace
+					"stack_index": 10,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "node/public/css/base.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 244,
+=======
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "node/views/base.pug",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 281,
+>>>>>>> bbe48c3e461675372c84c00151dabb6115618b0f:xyre.sublime-workspace
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+<<<<<<< HEAD:project.sublime-workspace
+								63,
+								63
+=======
+								0,
+								0
+>>>>>>> bbe48c3e461675372c84c00151dabb6115618b0f:xyre.sublime-workspace
+							]
+						],
+						"settings":
+						{
+<<<<<<< HEAD:project.sublime-workspace
+							"syntax": "Packages/CSS/CSS.sublime-syntax",
+=======
+							"syntax": "Packages/Pug/Syntaxes/Pug.tmLanguage",
+>>>>>>> bbe48c3e461675372c84c00151dabb6115618b0f:xyre.sublime-workspace
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true,
+							"vintage":
+							{
+								"action": null,
+								"action_count": "",
+								"mode": "mode_normal",
+								"motion": null,
+								"motion_count": "",
+								"must_capture_register_name": false,
+								"partial_sequence": "",
+								"register": "\"",
+								"sequence": "",
+								"xpos": 0
+							}
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"file": "node/routes/organization/index.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 230,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								137,
+								137
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Babel/JavaScript (Babel).sublime-syntax",
+							"vintage":
+							{
+								"_vintageous_glue_until_normal_mode": false,
+								"action": null,
+								"action_count": "",
+								"mode": "mode_normal",
+								"motion": null,
+								"motion_count": "",
+								"must_capture_register_name": false,
+								"normal_insert_count": "1",
+								"partial_sequence": "",
+								"register": "\"",
+								"sequence": "",
+<<<<<<< HEAD:project.sublime-workspace
+								"xpos": 0
+=======
+								"xpos": 13
+>>>>>>> bbe48c3e461675372c84c00151dabb6115618b0f:xyre.sublime-workspace
+							}
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 7,
+					"type": "text"
+				},
+				{
+<<<<<<< HEAD:project.sublime-workspace
+					"buffer": 6,
+					"file": "node/views/footer.pug",
+=======
+					"buffer": 10,
+					"file": "node/views/organization",
+>>>>>>> bbe48c3e461675372c84c00151dabb6115618b0f:xyre.sublime-workspace
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 455,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								366,
+								366
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Pug/Syntaxes/Pug.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true,
+							"vintage":
+							{
+								"action": null,
+								"action_count": "",
+								"mode": "mode_normal",
+								"motion": null,
+								"motion_count": "",
+								"must_capture_register_name": false,
+								"partial_sequence": "",
+								"register": "\"",
+								"sequence": "",
+								"xpos": 0
+							}
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+<<<<<<< HEAD:project.sublime-workspace
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "node/views/base.pug",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 324,
+=======
+					"stack_index": 10,
+					"type": "text"
+				},
+				{
+					"buffer": 11,
+					"file": "node/routes/api/users.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 350,
+>>>>>>> bbe48c3e461675372c84c00151dabb6115618b0f:xyre.sublime-workspace
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+<<<<<<< HEAD:project.sublime-workspace
+								171,
+								171
+=======
+								68,
+								68
+>>>>>>> bbe48c3e461675372c84c00151dabb6115618b0f:xyre.sublime-workspace
+							]
+						],
+						"settings":
+						{
+<<<<<<< HEAD:project.sublime-workspace
+							"highlight_line": false,
+							"syntax": "Packages/Pug/Syntaxes/Pug.tmLanguage",
+							"tab_size": 4,
+=======
+							"open_with_edit": true,
+							"syntax": "Packages/Babel/JavaScript (Babel).sublime-syntax",
+							"vintage":
+							{
+								"_vintageous_glue_until_normal_mode": false,
+								"action": null,
+								"action_count": "",
+								"mode": "mode_normal",
+								"motion": null,
+								"motion_count": "",
+								"must_capture_register_name": false,
+								"normal_insert_count": "1",
+								"partial_sequence": "",
+								"register": "\"",
+								"sequence": "",
+								"xpos": 0
+							}
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 14,
+					"type": "text"
+				},
+				{
+					"buffer": 12,
+					"file": "node/routes/api/userByPostId.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 362,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								68,
+								68
+							]
+						],
+						"settings":
+						{
+							"open_with_edit": true,
+							"syntax": "Packages/Babel/JavaScript (Babel).sublime-syntax",
+							"vintage":
+							{
+								"_vintageous_glue_until_normal_mode": false,
+								"action": null,
+								"action_count": "",
+								"mode": "mode_normal",
+								"motion": null,
+								"motion_count": "",
+								"must_capture_register_name": false,
+								"normal_insert_count": "1",
+								"partial_sequence": "",
+								"register": "\"",
+								"sequence": "",
+								"xpos": 0
+							}
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 15,
+					"type": "text"
+				},
+				{
+					"buffer": 13,
+					"file": "node/test/initMongoDb.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4313,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1598,
+								1598
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Babel/JavaScript (Babel).sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true,
+							"vintage":
+							{
+								"_vintageous_glue_until_normal_mode": false,
+								"action": null,
+								"action_count": "",
+								"mode": "mode_normal",
+								"motion": null,
+								"motion_count": "",
+								"must_capture_register_name": false,
+								"normal_insert_count": "1",
+								"partial_sequence": "",
+								"register": "\"",
+								"sequence": "",
+								"xpos": 11
+							}
+						},
+						"translation.x": 0.0,
+						"translation.y": 837.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 16,
+					"type": "text"
+				},
+				{
+					"buffer": 14,
+					"file": "node/test/models/job.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 292,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								108,
+								108
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Babel/JavaScript (Babel).sublime-syntax",
+							"vintage":
+							{
+								"_vintageous_glue_until_normal_mode": false,
+								"action": null,
+								"action_count": "",
+								"mode": "mode_normal",
+								"motion": null,
+								"motion_count": "",
+								"must_capture_register_name": false,
+								"normal_insert_count": "1",
+								"partial_sequence": "",
+								"register": "\"",
+								"sequence": "",
+								"xpos": 17
+							}
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 17,
+					"type": "text"
+				},
+				{
+					"buffer": 15,
+					"file": "node/src/OrganizationPage.react.jsx",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1406,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								715,
+								715
+							]
+						],
+						"settings":
+						{
+							"highlight_line": false,
+							"syntax": "Packages/JSX/JSX.tmLanguage",
+							"tab_size": 2,
+>>>>>>> bbe48c3e461675372c84c00151dabb6115618b0f:xyre.sublime-workspace
+							"translate_tabs_to_spaces": true,
+							"vintage":
+							{
+								"_vintageous_glue_until_normal_mode": false,
+								"_vintageous_non_interactive": false,
+								"_vintageous_processing_notation": false,
+								"action": null,
+								"action_count": "",
+								"mode": "mode_normal",
+								"motion": null,
+								"motion_count": "",
+								"must_capture_register_name": false,
+								"normal_insert_count": "1",
+								"partial_sequence": "",
+								"register": "\"",
+								"sequence": "",
+<<<<<<< HEAD:project.sublime-workspace
+								"xpos": 8
+=======
+								"xpos": 0
+>>>>>>> bbe48c3e461675372c84c00151dabb6115618b0f:xyre.sublime-workspace
+							}
+						},
+						"translation.x": 0.0,
+						"translation.y": 97.0,
+						"zoom_level": 1.0
+					},
+<<<<<<< HEAD:project.sublime-workspace
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "node/routers/home/index.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 216,
+=======
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 16,
+					"file": "node/package.json",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2358,
+>>>>>>> bbe48c3e461675372c84c00151dabb6115618b0f:xyre.sublime-workspace
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+<<<<<<< HEAD:project.sublime-workspace
+								140,
+								140
+=======
+								172,
+								172
+>>>>>>> bbe48c3e461675372c84c00151dabb6115618b0f:xyre.sublime-workspace
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScriptNext - ES6 Syntax/JSON (JavaScriptNext).tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true,
+							"vintage":
+							{
+								"_vintageous_glue_until_normal_mode": false,
+								"action": null,
+								"action_count": "",
+								"mode": "mode_normal",
+								"motion": null,
+								"motion_count": "",
+								"must_capture_register_name": false,
+								"normal_insert_count": "1",
+								"partial_sequence": "",
+								"register": "\"",
+								"sequence": "",
+<<<<<<< HEAD:project.sublime-workspace
+								"xpos": 16
+=======
+								"xpos": 39
+							}
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 18,
+					"type": "text"
+				},
+				{
+					"buffer": 17,
+					"file": "node/src/components/organization/HrTree.react.jsx",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2066,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								844,
+								844
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JSX/JSX.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true,
+							"vintage":
+							{
+								"_vintageous_glue_until_normal_mode": false,
+								"action": null,
+								"action_count": "",
+								"mode": "mode_normal",
+								"motion": null,
+								"motion_count": "",
+								"must_capture_register_name": false,
+								"normal_insert_count": "1",
+								"partial_sequence": "",
+								"register": "\"",
+								"sequence": "",
+								"xpos": 52
+>>>>>>> bbe48c3e461675372c84c00151dabb6115618b0f:xyre.sublime-workspace
+							}
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+<<<<<<< HEAD:project.sublime-workspace
+					"stack_index": 7,
+=======
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 18,
+					"file": "node/src/reducers/organization.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 521,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								521,
+								521
+							]
+						],
+						"settings":
+						{
+							"open_with_edit": true,
+							"syntax": "Packages/Babel/JavaScript (Babel).sublime-syntax",
+							"vintage":
+							{
+								"_vintageous_glue_until_normal_mode": false,
+								"action": null,
+								"action_count": "",
+								"mode": "mode_normal",
+								"motion": null,
+								"motion_count": "",
+								"must_capture_register_name": false,
+								"normal_insert_count": "1",
+								"partial_sequence": "",
+								"register": "\"",
+								"sequence": "",
+								"xpos": 0
+							}
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 9,
+>>>>>>> bbe48c3e461675372c84c00151dabb6115618b0f:xyre.sublime-workspace
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+<<<<<<< HEAD:project.sublime-workspace
+					"buffer": 9,
+					"file": "node/views/user/login.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 350,
+=======
+					"buffer": 19,
+					"file": "node/test/models/org.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 445,
+>>>>>>> bbe48c3e461675372c84c00151dabb6115618b0f:xyre.sublime-workspace
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+<<<<<<< HEAD:project.sublime-workspace
+								312,
+								312
+=======
+								260,
+								260
+>>>>>>> bbe48c3e461675372c84c00151dabb6115618b0f:xyre.sublime-workspace
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Babel/JavaScript (Babel).sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true,
+							"vintage":
+							{
+								"_vintageous_glue_until_normal_mode": false,
+								"action": null,
+								"action_count": "",
+								"mode": "mode_normal",
+								"motion": null,
+								"motion_count": "",
+								"must_capture_register_name": false,
+								"normal_insert_count": "1",
+								"partial_sequence": "",
+								"register": "\"",
+								"sequence": "",
+<<<<<<< HEAD:project.sublime-workspace
+								"xpos": 8
+=======
+								"xpos": 10
+>>>>>>> bbe48c3e461675372c84c00151dabb6115618b0f:xyre.sublime-workspace
+							}
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+<<<<<<< HEAD:project.sublime-workspace
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 10,
+					"file": "node/views/base.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 436,
+=======
+					"stack_index": 21,
+					"type": "text"
+				},
+				{
+					"buffer": 20,
+					"file": "node/test/models/user.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 401,
+>>>>>>> bbe48c3e461675372c84c00151dabb6115618b0f:xyre.sublime-workspace
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+<<<<<<< HEAD:project.sublime-workspace
+								369,
+								369
+=======
+								139,
+								139
+>>>>>>> bbe48c3e461675372c84c00151dabb6115618b0f:xyre.sublime-workspace
+							]
+						],
+						"settings":
+						{
+<<<<<<< HEAD:project.sublime-workspace
+							"syntax": "Packages/CSS/CSS.sublime-syntax",
+							"tab_size": 4,
+=======
+							"syntax": "Packages/Babel/JavaScript (Babel).sublime-syntax",
+							"tab_size": 2,
+>>>>>>> bbe48c3e461675372c84c00151dabb6115618b0f:xyre.sublime-workspace
+							"translate_tabs_to_spaces": true,
+							"vintage":
+							{
+								"_vintageous_glue_until_normal_mode": false,
+								"_vintageous_non_interactive": false,
+								"_vintageous_processing_notation": false,
+								"action": null,
+								"action_count": "",
+								"mode": "mode_normal",
+								"motion": null,
+								"motion_count": "",
+								"must_capture_register_name": false,
+								"normal_insert_count": "1",
+								"partial_sequence": "",
+								"register": "\"",
+								"sequence": "",
+<<<<<<< HEAD:project.sublime-workspace
+								"xpos": 4
+=======
+								"xpos": 8
+>>>>>>> bbe48c3e461675372c84c00151dabb6115618b0f:xyre.sublime-workspace
+							}
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+<<<<<<< HEAD:project.sublime-workspace
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 11,
+					"file": "node/settings.js",
+=======
+					"stack_index": 20,
+					"type": "text"
+				},
+				{
+					"buffer": 21,
+					"file": "node/src/actions/organization.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1467,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								467,
+								467
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Babel/JavaScript (Babel).sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true,
+							"vintage":
+							{
+								"_vintageous_glue_until_normal_mode": false,
+								"action": null,
+								"action_count": "",
+								"mode": "mode_normal",
+								"motion": null,
+								"motion_count": "",
+								"must_capture_register_name": false,
+								"normal_insert_count": "1",
+								"partial_sequence": "",
+								"register": "\"",
+								"sequence": "",
+								"xpos": 14
+							}
+						},
+						"translation.x": 0.0,
+						"translation.y": 126.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 19,
+					"type": "text"
+				},
+				{
+					"buffer": 22,
+					"file": "node/src/reducers/index.js",
+>>>>>>> bbe48c3e461675372c84c00151dabb6115618b0f:xyre.sublime-workspace
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 388,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+<<<<<<< HEAD:project.sublime-workspace
+								760,
+								760
+=======
+								316,
+								316
+>>>>>>> bbe48c3e461675372c84c00151dabb6115618b0f:xyre.sublime-workspace
+							]
+						],
+						"settings":
+						{
+							"highlight_line": false,
+							"open_with_edit": true,
+							"syntax": "Packages/Babel/JavaScript (Babel).sublime-syntax",
+							"translate_tabs_to_spaces": true,
+							"vintage":
+							{
+								"_vintageous_glue_until_normal_mode": false,
+								"action": null,
+								"action_count": "",
+								"mode": "mode_normal",
+								"motion": null,
+								"motion_count": "",
+								"must_capture_register_name": false,
+								"normal_insert_count": "1",
+								"partial_sequence": "",
+								"register": "\"",
+								"sequence": "",
+								"xpos": 0
+							}
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 22,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 25.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+<<<<<<< HEAD:project.sublime-workspace
+			0.620889575872,
+=======
+>>>>>>> bbe48c3e461675372c84c00151dabb6115618b0f:xyre.sublime-workspace
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 112.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.sftp":
+	{
+		"height": 98.0
+	},
+	"pinned_build_system": "",
+	"project": "xyre.sublime-project",
+	"replace":
+	{
+		"height": 64.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"rou",
+				"node/core/routes_loader.js"
+			],
+			[
+				"ser",
+				"node/server.js"
+			],
+			[
+				"rouel",
+				"node/core/routes_loader.js"
+			],
+			[
+				"serjs",
+				"node/server.js"
+			],
+			[
+				"route",
+				"node/core/routes_loader.js"
+			],
+			[
+				"se",
+				"node/server.js"
+			],
+			[
+				"routeloa",
+				"node/core/routes_loader.js"
+			],
+			[
+				"serv",
+				"node/server.js"
+			],
+			[
+				"pac",
+				"node/package.json"
+			],
+			[
+				"server",
+				"node/server.js"
+			],
+			[
+				"servejs",
+				"node/server.js"
+			],
+			[
+				"we",
+				"node/webpack.config.js"
+			],
+			[
+				"init",
+				"node/test/initCompany.js"
+			],
+			[
+				"pack",
+				"node/package.json"
+			],
+			[
+				"web",
+				"node/webpack.config.js"
+			],
+			[
+				"hr",
+				"node/src/components/organization/HrTree.react.jsx"
+			],
+			[
+				"workermodal",
+				"node/src/components/organization/WorkerModal.react.jsx"
+			],
+			[
+				"initd",
+				"node/test/initMongoDb.js"
+			],
+			[
+				"model",
+				"node/routers/api/models/company.js"
+			],
+			[
+				"hrtr",
+				"node/src/components/organization/HrTree.react.jsx"
+			],
+			[
+				"webpa",
+				"node/webpack.config.js"
+			],
+			[
+				"webp",
+				"node/webpack.config.js"
+			],
+			[
+				"packj",
+				"node/package.json"
+			],
+			[
+				"wepa",
+				"node/webpack.config.js"
+			],
+			[
+				"bal",
+				"node/.babelrc"
+			],
+			[
+				"pa",
+				"node/package.json"
+			],
+			[
+				"bab",
+				"node/.babelrc"
+			],
+			[
+				"packjs",
+				"node/package.json"
+			],
+			[
+				"nodetest",
+				"node/test/init.js"
+			],
+			[
+				"test",
+				"nginx/web/js/test.js"
+			],
+			[
+				"testjs",
+				"nginx/web/js/test.js"
+			],
+			[
+				"webpac",
+				"node/webpack.config.js"
+			],
+			[
+				"serverjs",
+				"node/server.js"
+			],
+			[
+				"setti",
+				"node/settings.js"
+			],
+			[
+				"webpackjs",
+				"node/webpack.config.js"
+			],
+			[
+				"packagejs",
+				"node/package.json"
+			],
+			[
+				"packagejson",
+				"node/package.json"
+			],
+			[
+				"babelrc",
+				"node/.babelrc"
+			],
+			[
+				"3.start_b",
+				"3.start_bundle.sh"
+			],
+			[
+				"",
+				"3.start_node.sh"
+			],
+			[
+				"package",
+				"node/package.json"
+			],
+			[
+				"loginjade",
+				"node/views/user/login.jade"
+			],
+			[
+				"alip",
+				"static/component/config/pay_interface/AliPayConfig.react.js"
+			],
+			[
+				"orderspage",
+				"static/component/order/orders/Page.react.js"
+			],
+			[
+				"valid",
+				"node_modules/webase/lib/util/Validater.js"
+			],
+			[
+				"weixin",
+				"static/component/config/pay_interface/WeixinPayV3Config.react.js"
+			],
+			[
+				"payinterfapage",
+				"static/component/config/pay_interface/Page.react.js"
+			],
+			[
+				"orderspagerea",
+				"static/component/order/orders/Page.react.js"
+			],
+			[
+				"orderspy",
+				"order/orders.py"
+			],
+			[
+				"orderpy",
+				"order/order.py"
+			],
+			[
+				"orders",
+				"order/orders.py"
+			],
+			[
+				"payinterfacepayge",
+				"static/component/config/pay_interface/WeixinPayV2Config.react.js"
+			],
+			[
+				"emailnotipage",
+				"static/component/config/email_notify/Page.react.js"
+			],
+			[
+				"email",
+				"config/email_notify.py"
+			],
+			[
+				"formstaic",
+				"node_modules/webase/lib/component/form_static_text/FormStaticText.react.js"
+			],
+			[
+				"configpayinterpage",
+				"static/component/config/pay_interface/Page.react.js"
+			],
+			[
+				"payinterfacereact",
+				"static/component/mall/product/PayInterfaceConfig.react.js"
+			],
+			[
+				"tableactibu",
+				"node_modules/webase/lib/component/table/TableActionButton.react.js"
+			],
+			[
+				"emailnotiflist",
+				"config/email_notify_list.py"
+			],
+			[
+				"emailnoti",
+				"config/email_notify.py"
+			],
+			[
+				"tableactibutt",
+				"node_modules/webase/lib/component/table/TableActionButton.react.js"
+			],
+			[
+				"pay_interface_activity",
+				"config/pay_interface_activity.py"
+			],
+			[
+				"payinterfacelist",
+				"config/pay_interface_list.py"
+			],
+			[
+				"orders.py",
+				"order/orders.py"
+			],
+			[
+				"emailnotireac",
+				"static/component/config/email_notify_list/Page.react.js"
+			],
+			[
+				"auditpy",
+				"order/audit.py"
+			],
+			[
+				"ordersstyle.scss",
+				"static/component/order/orders/style.scss"
+			],
+			[
+				"operareacjs",
+				"static/component/order/order/Operation.react.js"
+			],
+			[
+				"orderspagereacjs",
+				"static/component/order/orders/Page.react.js"
+			],
+			[
+				"tab.reactjs",
+				"static/component/order/orders/Tab.react.js"
+			],
+			[
+				"setting",
+				"hermes/settings.py"
+			],
+			[
+				"orderspagereactjs",
+				"static/component/order/orders/Page.react.js"
+			],
+			[
+				"gruntf",
+				"Gruntfile.js"
+			],
+			[
+				"grun",
+				"Gruntfile.js"
+			],
+			[
+				"configpage",
+				"static/component/order/config/Page.react.js"
+			],
+			[
+				"orderconfig",
+				"order/config.py"
+			],
+			[
+				"base",
+				"templates/base.html"
+			],
+			[
+				"settingspy",
+				"hermes/settings.py"
+			],
+			[
+				"orderspagere",
+				"static/component/order/orders/Page.react.js"
+			],
+			[
+				"tablerea",
+				"node_modules/webase/lib/component/table/Table.react.js"
+			],
+			[
+				"ordersstorejs",
+				"static/component/order/orders/Store.js"
+			],
+			[
+				"orderpagerea",
+				"static/component/order/order/Page.react.js"
+			],
+			[
+				"tablereactjs",
+				"node_modules/webase/lib/component/table/Table.react.js"
+			],
+			[
+				"auditpage",
+				"static/component/order/audit/Page.react.js"
+			],
+			[
+				"orderordersthml",
+				"order/templates/order/orders.html"
+			],
+			[
+				"topnav",
+				"node_modules/webase/lib/component/top_nav/TopNav.react.js"
+			],
+			[
+				"orderpagere",
+				"static/component/order/order/Page.react.js"
+			],
+			[
+				"orderhtml",
+				"order/templates/order/order.html"
+			],
+			[
+				"ordershtml",
+				"order/templates/order/orders.html"
+			],
+			[
+				"orderstorejs",
+				"static/component/order/order/Store.js"
+			],
+			[
+				"payorderdialog",
+				"static/component/order/orders/PayOrderDialog.react.js"
+			],
+			[
+				"orderopera",
+				"static/component/order/order/OrderOperations.react.js"
+			],
+			[
+				"shiporder",
+				"static/component/order/orders/ShipOrderDialog.react.js"
+			],
+			[
+				"shi",
+				"order/ship_order.py"
+			],
+			[
+				"ship_ord",
+				"order/ship_order.py"
+			],
+			[
+				"orderfis",
+				"order/finish_order.py"
+			],
+			[
+				"payorderrea",
+				"static/component/order/orders/PayOrderDialog.react.js"
+			],
+			[
+				"refundorderida",
+				"static/component/order/orders/RefundOrderDialog.react.js"
+			],
+			[
+				"orders.html",
+				"order/templates/order/orders.html"
+			],
+			[
+				"orderpagereactjs",
+				"static/component/order/order/Page.react.js"
+			],
+			[
+				"order.py",
+				"order/order.py"
+			],
+			[
+				"order",
+				"order/order.py"
+			],
+			[
+				"order/page",
+				"static/component/order/order/Page.react.js"
+			],
+			[
+				"opera",
+				"static/component/order/order/Operation.react.js"
+			],
+			[
+				"pagereacjs",
+				"static/component/order/order/Page.react.js"
+			],
+			[
+				"frontend",
+				"core/frontend_data.py"
+			],
+			[
+				"utilpy",
+				"util/db_util.py"
+			],
+			[
+				"orderreapge",
+				"static/component/order/orders/Page.react.js"
+			],
+			[
+				"readmemd",
+				"README.md"
+			],
+			[
+				"orders/refund",
+				"static/component/order/orders/RefundOrderDialog.scss"
+			],
+			[
+				"ordersstyle",
+				"static/component/order/orders/style.scss"
+			],
+			[
+				"ord",
+				"order/orders.py"
+			],
+			[
+				"pageaction",
+				"node_modules/webase/lib/action/PageAction.js"
+			],
+			[
+				"popover",
+				"node_modules/webase/lib/component/popover/Popover.react.js"
+			],
+			[
+				"forminput",
+				"node_modules/webase/lib/component/form_input/FormInput.react.js"
+			],
+			[
+				"coremidd",
+				"core/middleware.py"
+			],
+			[
+				"coremiddlewa",
+				"core/middleware.py"
+			],
+			[
+				"table.reatjs",
+				"node_modules/webase/lib/component/table/Table.react.js"
+			],
+			[
+				"delireac",
+				"static/component/config/express_deliveries/Page.react.js"
+			],
+			[
+				"pageactions",
+				"node_modules/webase/lib/action/PageAction.js"
+			],
+			[
+				"webasesyste",
+				"node_modules/webase/lib/util/System.js"
+			],
+			[
+				"order/orderspy",
+				"order/orders.py"
+			],
+			[
+				"emailnotify.py",
+				"config/email_notify.py"
+			],
+			[
+				"emailnotipay",
+				"mall/email_notification.py"
+			],
+			[
+				"emailnotifystylesc",
+				"static/component/config/email_notify/style.scss"
+			],
+			[
+				"emailnotihtm",
+				"config/templates/config/email_notify.html"
+			],
+			[
+				"webaseformi",
+				"node_modules/webase/lib/component/form_input/FormInput.react.js"
+			],
+			[
+				"emailnotifyra",
+				"static/component/config/email_notify_list/Page.react.js"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"~/weizoom/h5.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+<<<<<<< HEAD:project.sublime-workspace
+		"_vintageous_last_buffer_search": "NormalLayout",
+		"_vintageous_last_buffer_search_command": "vi_star",
+		"_vintageous_last_char_search_command": "vi_f",
+		"_vintageous_last_character_search": "X",
+=======
+		"_vintageous_last_buffer_search": "Sider",
+		"_vintageous_last_buffer_search_command": "vi_star",
+>>>>>>> bbe48c3e461675372c84c00151dabb6115618b0f:xyre.sublime-workspace
+		"_vintageous_reset_during_init": true,
+		"vintage":
+		{
+			"_cmdline_cd": "/Users/liugenbin/xyre_demo/node/src"
+		}
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 273.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+		"max_columns": 2
+	}
+}
