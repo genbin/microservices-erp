@@ -7,11 +7,7 @@ const { SubMenu } = Menu;
 
 import { Row, Col } from 'antd';
 
-<<<<<<< HEAD
 var OrganizationPage = require('./components/organization/Page.react');
-=======
-var OrganizationPage = require('./OrganizationPage.react');
->>>>>>> bbe48c3e461675372c84c00151dabb6115618b0f
 
 import {createStore} from 'redux';
 import {store} from './configureStore';
@@ -40,11 +36,7 @@ ReactDOM.render(
       </Row>
       <Row>
         <Col span="24">
-<<<<<<< HEAD
           <Breadcrumb style={{ margin: '12px 5px' }}>
-=======
-          <Breadcrumb style={{ margin: '12px 0' }}>
->>>>>>> bbe48c3e461675372c84c00151dabb6115618b0f
             <Breadcrumb.Item >鑫云ERP系统</Breadcrumb.Item>
             <Breadcrumb.Item>组织管理权限</Breadcrumb.Item>
           </Breadcrumb>

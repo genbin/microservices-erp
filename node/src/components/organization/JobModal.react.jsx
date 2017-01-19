@@ -1,28 +1,17 @@
 import React from 'react';
-<<<<<<< HEAD
 import { _ } from 'underscore';
 
 import { Modal, Button, Form, Input, DatePicker, Row, Col } from 'antd';
 const FormItem = Form.Item;
-=======
-import {
-  Modal,
-  Button
-} from 'antd';
->>>>>>> bbe48c3e461675372c84c00151dabb6115618b0f
 
 const JobModal = React.createClass({
   getInitialState() {
     return {
-<<<<<<< HEAD
       job: {},
-=======
->>>>>>> bbe48c3e461675372c84c00151dabb6115618b0f
       loading: false,
       visible: false,
     };
   },
-<<<<<<< HEAD
 
   showModal(data) {
     let job = {};
@@ -50,17 +39,6 @@ const JobModal = React.createClass({
       loading: true
     });
 
-=======
-  showModal() {
-    this.setState({
-      visible: true,
-    });
-  },
-  handleOk() {
-    this.setState({
-      loading: true
-    });
->>>>>>> bbe48c3e461675372c84c00151dabb6115618b0f
     setTimeout(() => {
       this.setState({
         loading: false,
@@ -68,19 +46,14 @@ const JobModal = React.createClass({
       });
     }, 3000);
   },
-<<<<<<< HEAD
 
   onCancel() {
-=======
-  handleCancel() {
->>>>>>> bbe48c3e461675372c84c00151dabb6115618b0f
     this.setState({
       visible: false
     });
   },
 
   render() {
-<<<<<<< HEAD
     if (this.state.job == {}) return <div/>
 
     return (
@@ -114,44 +87,8 @@ const JobModal = React.createClass({
 
         </Form >
       </Modal> </div >
-=======
-    return ( < div >
-      < Modal visible = {
-        this.state.visible
-      }
-      title = "岗位信息"
-      onOk = {
-        this.handleOk
-      }
-      onCancel = {
-        this.handleCancel
-      }
-      footer = {
-        [ < Button key = "back"
-          type = "ghost"
-          size = "large"
-          onClick = {
-            this.handleCancel
-          } > Return < /Button>, < Button key = "submit"
-          type = "primary"
-          size = "large"
-          loading = {
-            this.state.loading
-          }
-          onClick = {
-            this.handleOk
-          } >
-          Submit < /Button>,
-        ]
-      } >
-      < p > Some contents... < /p> < p > Some contents... < /p> < p > Some contents... < /p> < p > Some contents... < /p> < p > Some contents... < /p> < /Modal> < /div>
->>>>>>> bbe48c3e461675372c84c00151dabb6115618b0f
     );
   },
 });
 
-<<<<<<< HEAD
 module.exports = JobModal;
-=======
-module.exports = JobModal;
->>>>>>> bbe48c3e461675372c84c00151dabb6115618b0f

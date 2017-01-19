@@ -1,6 +1,4 @@
 **/*.log
 **/*.log.*
-*.log
 node/node_modules/**
 xyre.sublime-*
-**/*.*~HEAD
