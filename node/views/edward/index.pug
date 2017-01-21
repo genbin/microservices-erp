@@ -1,11 +1,15 @@
 doctype html
 html
     head
-        title 工作流管理
+        title 测试页面
         link(
             href="https://unpkg.com/antd/dist/antd.min.css"
             rel="stylesheet"
         )
     body
+        h1 #{pageTitle}
         div#base-container
-    include ../footer.pug
+script(
+    src='http://127.0.0.1:4337/static/bundle.js'
+    type='text/javascript'
+)

@@ -1,5 +1,5 @@
 import React from 'react';
-import { _ } from 'underscore';
+import _ from 'lodash';
 
 import { Modal, Button, Form, Input, DatePicker, Row, Col } from 'antd';
 const FormItem = Form.Item;

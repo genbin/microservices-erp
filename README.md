@@ -29,13 +29,13 @@ sh init.sh
 
 ``` shell
 # 启动node服务
-sh start_node.sh
+sh node_start.sh
 
 # 启动服务端Babel编译器
-sh start_babel.sh
+sh babel_start.sh
 
 # 启动服务端webpack-dev-server打包服务器
-sh start_bundle.sh
+sh bundle_start.sh
 ```
 
 ### 如何启动项目 ###
@@ -72,7 +72,7 @@ src/
 │       ├── JobUserPanel.react.jsx
 │       ├── Page.react.jsx
 │       ├── RolesTable.react.jsx
-│       └── UserModal.react.jsx
+│       └── UserDialog.react.jsx
 ├── configureStore.js
 ├── index.jsx
 └── reducers

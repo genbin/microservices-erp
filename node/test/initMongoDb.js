@@ -25,24 +25,28 @@ db.once('close', function() {
 const Mock = require('mockjs');
 var Random = Mock.Random;
 // 增加组织中公司的数据
-var orgTmpl = Mock.mock({
-  'org|1': [{
-    'text': '鑫苑中国总部',
-    'org|2-3': [{
-      'text': /集团公司[a-z][0-9]/,
-      'org|2-3': [{
-        'text': /管理部[a-z][0-9]/,
-        'org|2-3': [{
-          'text': /设计职能[a-z][0-9]/,
-          'org|2-3': [{
+var orgTmpl = Mock.mock([
+  {
+    'key': '鑫苑中国总部',
+    'orgId': '@natural',
+    'children|2-3': [{
+      'orgId': '@natural',
+      'key': /集团公司[a-z][0-9]/,
+      'children|2-3': [{
+        'orgId': '@natural',
+        'key': /管理部[a-z][0-9]/,
+        'children|2-3': [{
+          'orgId': '@natural',
+          'key': /设计职能[a-z][0-9]/,
+          'children|2-3': [{
             'orgId': '@natural',
-            'text': /分公司[a-z][0-9]/,
+            'key': /分公司[a-z][0-9]/,
           }]
         }]
       }]
     }]
-  }]
-});
+  }
+]);
 
 var jobTmpl = {
   'key|+1': 1,
@@ -76,11 +80,11 @@ if (INIT_DB) {
   let hrTreeQ = jobModel.remove({});
   hrTreeQ.exec();
 
-  jobModel.create(orgTmpl.org, function(err) {
+  jobModel.create(orgTmpl, function(err) {
     if (err) {
       console.error('create db is error: ', err);
     } else {
-      console.log('正在生成模拟数据...');
+      console.log('tree结构已入库，正在生成其他的模拟数据...');
       generateOtherData();
     }
   });
@@ -97,25 +101,29 @@ function generateOtherData () {
     if (err) {
       console.log('err: ', err);
     }
-    hr.map((root) => {
-      console.log('根节点: ', root.name);
-      root.org.map((one) => {
+    hr.map(subRoot => {
+      //
+      subRoot.children.map((one) => {
+        console.log('根节点： ', one.key);
 
-        one.org.map((two) => {
-          console.log('第二层节点： ', two.name);
+        one.children.map((two) => {
+          console.log('第二层节点： ', two.key);
 
-          two.org.map((three) => {
-            console.log('  > 第二层节点： ', two.name);
+          two.children.map((three) => {
+            console.log('  > 第三层节点： ', two.key);
 
-            three.org.map((four) => {
-              console.log('  > row: {_id : "%s", name: "%s"}', four._id, four.name);
+            three.children.map((four) => {
+              console.log(
+                '  > 叶节点: {_id : "%s", key: "%s", orgId: "%s"}',
+                four._id, four.key, four.orgId
+              );
 
               // 根据点击后的部门生成相关的岗位
               for (let i=0; i<10; i++) {
                 let jobDatum = Mock.mock(jobTmpl);
-                jobDatum.orgId = four._id + '';
+                jobDatum.orgId = four.orgId + '';
                 jobData.push(jobDatum);
-                console.log('       > job.orgId: %s, job.postName: %s ', jobDatum.orgId, jobDatum.postName);
+                console.log('     > job.orgId: %s, job.postName: %s ', jobDatum.orgId, jobDatum.postName);
 
                 // 根据点击后的部门生成相关的人员
                 for (let i=0; i<10; i++) {
@@ -130,7 +138,7 @@ function generateOtherData () {
             });
           });
         });
-      });
+      })
     });
 
   });

@@ -1,25 +1,29 @@
 var mongoose = require('mongoose');
 var orgSchema = new mongoose.Schema({
-  'text': String,
-  'org': [
+  'key': String,
+  'orgId': String,
+  'children': [
     {
-      'text': String,
-      'org': [
+      'orgId': String,
+      'key': String,
+      'children': [
       {
-        'text': String,
-        'org': [
+        'orgId': String,
+        'key': String,
+        'children': [
         {
-          'text': String,
-          'org': [
+          'orgId': String,
+          'key': String,
+          'children': [
           {
             'orgId': String,
-            'text': String,
+            'key': String,
           }],
         }],
       }],
     }]
 });
 
-var orgModel = mongoose.model('org', orgSchema); 
+var orgModel = mongoose.model('org', orgSchema);
 
 module.exports = orgModel;

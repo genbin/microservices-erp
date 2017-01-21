@@ -1,4 +1,11 @@
+<<<<<<< HEAD
+.DS_STORE
+*.log
+*.log.*
+
+=======
 **/*.log
 **/*.log.*
+>>>>>>> ad7e1fd85c3acafd85ff6a2bd3eb8311f144dff0
 node/node_modules/**
 xyre.sublime-*

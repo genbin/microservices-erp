@@ -46,9 +46,7 @@ export function getUserDataByOrgId(orgId) {
   return function (dispatch) {
     return fetch(url)
           .then(response => response.json())
-          .then(json =>
-            dispatch(receiveUsersByOrgId(json))
-          );
+          .then(json => dispatch(receiveUsersByOrgId(json)));
       }
 }
 function receiveUsersByOrgId(users) {
@@ -66,9 +64,9 @@ export function getUserDataByJobId(jobId) {
   return function (dispatch) {
     return fetch(url)
           .then(response => response.json())
-          .then(json =>
+          .then(json => {
             dispatch(receiveWorkersByJobId(json))
-          );
+          });
       }
 }
 function receiveWorkersByJobId(workers) {
@@ -78,9 +76,24 @@ function receiveWorkersByJobId(workers) {
   };
 }
 
-// export function getUserFromPage(user) {
-//   return {
-//     type: 'ORGANIZATION_GET_USER_FROM_TABLE',
-//     user
-//   }
-// }
+export function saveUserDataByUserId(user) {
+  let url = ['/api/user/', user._id].join(''),
+      option = {
+        method: 'POST',
+        headers: {
+          'Accept': 'application/json',
+          'Content-Type': 'application/json'
+        },
+        body: JSON.stringify(user)
+      };
+
+  return function (dispatch) {
+    return fetch(url, option)
+      .then(response => response.json())
+      .then((json) => {
+        if (json) {
+          dispatch(getUserDataByOrgId(user.orgId));
+        }
+      });
+  }
+}

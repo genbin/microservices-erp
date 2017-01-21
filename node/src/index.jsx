@@ -3,16 +3,24 @@ import ReactDOM from 'react-dom';
 
 import { Layout, Menu, Breadcrumb, Icon } from 'antd';
 const { Header, Content, Footer, Sider } = Layout;
+import { Row, Col } from 'antd';
 const { SubMenu } = Menu;
 
-import { Row, Col } from 'antd';
+import {createStore} from 'redux';
+import { Provider } from 'react-redux';
+import {store} from './configureStore';
 
 var OrganizationPage = require('./components/organization/Page.react');
 
-import {createStore} from 'redux';
-import {store} from './configureStore';
+// 动态加载页面组件
+const pathname = location.pathname;
+const getPageComponent = function (pathname) {
+	pathname = pathname || location.pathname;
+  return './components' + pathname.replace(/\/$/,'') + '/Page.react';
+};
+var reqPath = getPageComponent(pathname);
+var ComponentPage = require(reqPath);
 
-import { Provider } from 'react-redux';
 ReactDOM.render(
   <Provider store={store}>
     <div>
@@ -25,6 +33,7 @@ ReactDOM.render(
               mode="horizontal"
               defaultSelectedKeys={['1']}
               style={{ lineHeight: '64px' }}>
+              <Menu.Item key="0"><a href="/organization">系统设置</a></Menu.Item>
               <Menu.Item key="1"><a href="/organization">组织用户权限</a></Menu.Item>
               <Menu.Item key="2"><a href="/workflow">工作流管理</a></Menu.Item>
               <Menu.Item key="3">系统设置</Menu.Item>
@@ -44,7 +53,7 @@ ReactDOM.render(
       </Row>
       <Row>
         <Col span="24">
-          <OrganizationPage />  
+          <ComponentPage/>
         </Col>
       </Row>
     </div>

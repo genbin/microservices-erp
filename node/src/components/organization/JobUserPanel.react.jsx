@@ -1,18 +1,21 @@
 import React from 'react';
-import { _ } from 'underscore';
+import _ from 'lodash';
 
-import { Table, Tabs, Button } from 'antd';
+import { Table, Tabs, Button, Switch } from 'antd';
 const TabPane = Tabs.TabPane;
 const ButtonGroup = Button.Group;
 
 import JobModal from './JobModal.react';
-import UserModal from './UserModal.react';
-import RolesTable from './RolesTable.react';
+import UserDialog from './UserDialog.react';
+import RoleTable from './RoleTable.react';
+import JobWorkerTable from './JobWorkerTable.react';
+import UserRoleTable from './UserRoleTable.react';
 
 import { getUserDataByJobId } from '../../actions/organization';
 
 const JobUserPanel = React.createClass({
   getInitialState() {
+    console.log('JobUserPanel, getInitialState: %o', this.props);
     return {
       selectedRowKeys: [],  // 用户表和岗位表选中的行key
       selectedRowUser: {},  // 用户表，选中的数据行对象
@@ -26,7 +29,7 @@ const JobUserPanel = React.createClass({
     let mode = this.state.activeAlias;
     switch(mode) {
       case 'USER':
-        this.refs.UserModal.showModal(this.state.selectedRowUser);
+        this.refs.UserDialog.showModal(this.state.selectedRowUser);
         break;
       case 'JOB':
         this.refs.JobModal.showModal(this.state.selectedRowJob);
@@ -41,7 +44,7 @@ const JobUserPanel = React.createClass({
     let mode = this.state.activeAlias;
     switch(mode) {
       case 'USER':
-        this.refs.UserModal.showModal({});
+        this.refs.UserDialog.showModal({});
         break;
       case 'JOB':
         this.refs.JobModal.showModal({});
@@ -59,7 +62,7 @@ const JobUserPanel = React.createClass({
     });
   },
 
-  // 点击job岗位表格单行，获取相关的行数据
+  // 点击选取一行数据: 岗位(job)Table
   onChangeJobTable: function(selectedRowKeys) {
     // 从props.jobs中获得相应的数据
     let selectedRowJob = _.filter(this.props.jobs, function(job){
@@ -75,23 +78,24 @@ const JobUserPanel = React.createClass({
     dispatch(getUserDataByJobId(selectedRowKeys[0]));
   },
 
-  // 点击用户表格单行，获取相关的行数据
+  // 点击选取一行数据: 人员(user)Table
   onChangeUserTable: function(selectedRowKeys) {
     // 从props.users中获得相应的数据
     let selectedRowUser = _.filter(this.props.users, function(user){
       return user.sort == selectedRowKeys;
     });
 
+    console.log('onChangeUserTable: %o', selectedRowUser);
     this.setState({
       selectedRowKeys,
       selectedRowUser: selectedRowUser[0]
     });
-
   },
 
   render() {
-    const { jobs, users, workers } = this.props;
-    const { selectedRowKeys } = this.state;
+    const { jobs, users, workers, dispatch } = this.props;
+    const { selectedRowKeys, selectedRowUser } = this.state;
+    console.log('JobUserPanel render %o', selectedRowUser);
     return (
       <div>
         <Tabs
@@ -109,57 +113,24 @@ const JobUserPanel = React.createClass({
           }>
 
           <TabPane tab="用户" key="USER">
-            <div>
-              <Table
-                rowSelection={{
-                  type: 'radio',
-                  selectedRowKeys,
-                  onChange: this.onChangeUserTable
-                }}
-                columns={
-                    [
-                      { title: '序号', dataIndex: 'sort' },
-                      { title: '用户名称', dataIndex: 'realName' },
-                      { title: '用户登录名称', dataIndex: 'loginName' },
-                      { title: '手机', dataIndex: 'mobile' },
-                      { title: '状态', dataIndex: 'status' },
-                      { title: '备注',
-                        dataIndex: 'remark',
-                        width: 100,
-                        render: (text)=> <a>{ text.substring(0,10) }</a> }
-                    ]
-                  }
-                  dataSource={users}
-                  size="small"
-                />
-            </div>
+            <UserRoleTable
+              users={ users }
+              selectedRowKeys={ selectedRowKeys }
+              onChangeUserTable={ this.onChangeUserTable }
+              />
           </TabPane>
 
           <TabPane tab="岗位" key="JOB" >
-            <div>
-              <Table
-                rowSelection={{
-                  type: 'radio',
-                  selectedRowKeys,
-                  onChange: this.onChangeJobTable}}
-                columns={
-                  [
-                    { title: '是否主岗', dataIndex: 'type' },
-                    { title: '序号', dataIndex: 'sort' },
-                    { title: '岗位名称', dataIndex: 'postName' },
-                    { title: '状态', dataIndex: 'status' }
-                  ]
-                }
-                dataSource={jobs}
-                size="small"
+            <JobWorkerTable
+              jobs={ jobs }
+              workers={ workers }
+              selectedRowKeys={ selectedRowKeys }
+              onChangeJobTable={ this.onChangeJobTable }
               />
-            <RolesTable workers={workers}/>
-            </div>
           </TabPane>
         </Tabs>
 
-        <UserModal ref="UserModal"/>
-
+        <UserDialog ref="UserDialog" users={users} user={selectedRowUser} dispatch={dispatch} />
         <JobModal ref="JobModal"/>
 
       </div>
